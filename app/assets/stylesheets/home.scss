@@ -1,0 +1,85 @@
+body {
+ font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+header { display: none }
+
+.main-container {
+  height: 100%;
+}
+
+.cover {
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(asset_path("cover.jpg"));
+  background-size: cover;
+  background-position: fixed;
+}
+
+.cover-content {
+  top: 35px;
+  position: absolute;
+  left: 112px;
+}
+
+.cover-content a {
+  display: block;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.cover-content p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+h1.cover-title {
+  margin: 0;
+  color: #fff;
+}
+
+.wrapper {
+  position: absolute;
+  width: 70%;
+  top: 0;
+  left: 30%;
+  background: #fff;
+  height: 100%;
+}
+
+.main-content {
+  height: 100%;
+  overflow: scroll;
+}
+
+.main-content .content {
+  overflow: scroll;
+  padding: 40px 20%;
+  height: 100%;
+}
+
+.main-content h2 {
+  font-size: 32px;
+  color: #000;
+}
+
+.main-content h3 {
+  font-size: 26px;
+  color: #000;
+}
+
+.main-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+}
+
+@media only screen and (min-width: 1024px) {
+  // break and go top image
+}

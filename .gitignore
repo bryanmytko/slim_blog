@@ -19,3 +19,5 @@
 # Vim swaps
 *.swp
 *.swo
+
+.DS_Store

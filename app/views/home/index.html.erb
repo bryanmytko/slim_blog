@@ -1,10 +1,29 @@
-<h1>Bryan's Dev Blog</h1>
-<p>Lorem ipsum</p>
+<div class="main-container">
+  <aside role="banner" class="cover">
+    <div class="cover-image image-loaded"></div>
+    <div class="cover-container">
+      <div class="cover-content">
+        <a href="" class="cover-logo" data-pjax="">
+          <%= image_tag("avatar.png", size: "70") %>
+        </a>
+        <h1 class="cover-title">Bryan::Blog</h1>
+        <p class="cover-description">Software stuff.</p>
+      </div>
+    </div>
+  </aside>
 
-<% @post.each do |p| %>
-  <h2><%= p.title %></h2>
-  <small><%= p.created_at.strftime("%B %d, %Y") %></small>
-  <p><%= p.content %></p>
-<% end %>
+  <section class="wrapper">
+    <div class="main-content">
+      <div class="content">
+        <h2>Bryan's Dev Blog</h1>
+        <p>Lorem ipsum</p>
 
-
+        <% @post.each do |p| %>
+          <h3><%= p.title %></h2>
+          <small><%= p.created_at.strftime("%B %d, %Y") %></small>
+          <p><%= p.content %></p>
+        <% end %>
+      </div>
+    </div>
+  </section>
+</div>

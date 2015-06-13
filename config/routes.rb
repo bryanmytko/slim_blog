@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root to:"home#index"
 
   resources :posts
+  resources :visuals, only: :index
+  resources :about, only: :index
 end

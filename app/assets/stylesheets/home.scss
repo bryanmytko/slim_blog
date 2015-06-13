@@ -1,83 +1,103 @@
 body {
- font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
- margin: 0;
- padding: 0;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #bebebe;
+  color: #424242;
 }
 
 header { display: none }
 
+.heading h1 {}
+
 .main-container {
-  height: 100%;
-}
-
-.cover {
-  height: 100%;
-  width: 30%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-image: url(asset_path("cover.jpg"));
-  background-size: cover;
-  background-position: fixed;
-}
-
-.cover-content {
-  top: 35px;
-  position: absolute;
-  left: 112px;
-}
-
-.cover-content a {
-  display: block;
-  width: 70px;
+  width: 620px;
   margin: 0 auto;
 }
 
-.cover-content p {
-  text-align: center;
-  color: #fff;
+.top-nav {}
+.top-nav ul {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-h1.cover-title {
-  margin: 0;
-  color: #fff;
+.top-nav ul li {
+  display: inline;
 }
 
-.wrapper {
-  position: absolute;
-  width: 70%;
-  top: 0;
-  left: 30%;
-  background: #fff;
-  height: 100%;
+.top-nav ul li:before {
+  content: " | "
 }
 
-.main-content {
-  height: 100%;
-  overflow: scroll;
+.top-nav ul li:first-child:before {
+  content: ""
 }
+
+.top-nav ul li a {
+  color: #ED1BBD;
+}
+
+.main-content {}
 
 .main-content .content {
-  overflow: scroll;
-  padding: 40px 20%;
-  height: 100%;
+  padding: 40px;
 }
 
 .main-content h2 {
   font-size: 32px;
-  color: #000;
 }
 
 .main-content h3 {
   font-size: 26px;
-  color: #000;
+  margin-bottom: 0;
 }
 
 .main-content p {
   font-size: 18px;
   line-height: 28px;
+}
+
+.main-content p.date {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+}
+
+footer {
+  width: 600px;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  width: 200px;
+}
+
+footer ul li {
+  display: inline;
   color: #000;
+  font-size: 12px;
+}
+
+footer ul li a {
+  display: inline-block;
+  background: asset-data-url("social.png");
+  width: 95px;
+  height: 94px;
+}
+
+footer ul li a.github {}
+
+footer ul li a.twitter {
+  background-position: right 0;
+}
+
+footer p {
+  display: block;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1024px) {

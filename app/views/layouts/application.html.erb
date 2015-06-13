@@ -7,19 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header>
-  <% if admin_signed_in? %>
-    <li>
-    <%= link_to('Logout', destroy_admin_session_path, method: :delete) %>
-    </li>
-  <% else %>
-    <li>
-    <%= link_to('Login', new_admin_session_path)  %>
-    </li>
-  <% end %>
-  </header>
 
-<%= yield %>
+<div class="main-container">
+  <div class="main-content">
+    <div class="content">
+      <div class="heading">
+        <h1>Bryan::Website</h1>
+        <p>Software and stuff.</p>
+      </div>
+      <nav class="top-nav">
+        <ul>
+          <li><a href="#">Words</a></li>
+          <li><a href="#">Visual</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <%= yield %>
+    </div>
+  </div>
+</div>
 
 <footer>
   <ul>

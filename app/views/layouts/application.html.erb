@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SlimBlog</title>
+  <title>bryanmytko.com</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,14 +13,14 @@
   <div class="main-content">
     <div class="content">
       <div class="heading">
-        <h1>Bryan::Website</h1>
+        <h1><a href="/">$_Bryan::Website.new</a></h1>
         <p>Software and stuff.</p>
       </div>
       <nav class="top-nav">
         <ul>
-          <li><a href="#">Words</a></li>
-          <li><a href="#">Visual</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="/">Words</a></li>
+          <li><a href="/visuals">Visuals</a></li>
+          <li><a href="/about">About</a></li>
         </ul>
       </nav>
       <%= yield %>

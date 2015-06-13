@@ -1,14 +1,14 @@
 <% @post.each do |p| %>
-  <h3><%= p.title %></h2>
-  <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
-  <p><%= p.content %></p>
+  <div class="post-container">
+    <h3><a href="/posts/<%= p.id %>"><%= p.title %></a></h2>
+    <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
+    <p>
+      <%=raw truncate(
+            format_output(p.content),
+            omission: " <a href=\"/posts/#{p.id}\">[...]</a>",
+            length: 240,
+            escape: false
+      )%>
+    </p>
+  </div>
 <% end %>
-
-<%=raw CodeRay.scan("
-class HomeController < ApplicationController
-skip_before_filter :authenticate_admin!, only: [:index]
-def index
-@post = Post.all.limit(10)
-end
-end", :ruby).div(:line_numbers => :table)
-%>

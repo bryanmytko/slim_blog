@@ -1,11 +1,11 @@
 <% @posts.each do |p| %>
   <div class="post-container">
-    <h3><a href="/posts/<%= p.id %>"><%= p.title %></a></h2>
+    <h3><%= link_to p.title, p %></h3>
     <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
     <p>
       <%=raw truncate(
             format_output(p.content),
-            omission: "...<br/ /><a href=\"/posts/#{p.id}\">[Read More]</a>",
+            omission: "...<br />#{link_to '[Read More]', p}",
             length: 290,
             escape: false
       )%>

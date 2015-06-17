@@ -5,7 +5,7 @@
     <p>
       <%=raw truncate(
             format_output(p.content),
-            omission: " <a href=\"/posts/#{p.id}\">[...]</a>",
+            omission: "...<br/ /><a href=\"/posts/#{p.id}\">[Read More]</a>",
             length: 290,
             escape: false
       )%>

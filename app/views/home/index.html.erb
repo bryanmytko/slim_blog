@@ -1,4 +1,4 @@
-<% @post.each do |p| %>
+<% @posts.each do |p| %>
   <div class="post-container">
     <h3><a href="/posts/<%= p.id %>"><%= p.title %></a></h2>
     <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>

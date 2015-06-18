@@ -7,6 +7,16 @@ module ApplicationHelper
     parsed_content.join
   end
 
+  def page_title
+    if @post
+      "#{@post.title} | bryanmytko.com"
+    elsif @title
+      "#{@title} | bryanmytko.com"
+    else
+      "bryanmytko.com"
+    end
+  end
+
   private
 
   def delimiter

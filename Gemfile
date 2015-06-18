@@ -25,6 +25,12 @@ gem "coderay"
 # Server / Deployment
 gem "unicorn"
 
+# SEO
+gem "sitemap_generator"
+
+# Upload
+gem "fog"
+
 # Testing
 gem "factory_girl_rails"
 gem "faker"

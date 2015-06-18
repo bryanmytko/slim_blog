@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   resources :visuals, only: :index
   resources :about, only: :index
 
-  get "/sitemap.xml.gz", to:"sitemaps#show"
+  get "sitemaps/sitemap.xml.gz", to:"sitemaps#show"
 end

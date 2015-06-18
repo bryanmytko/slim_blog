@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   resources :posts
   resources :visuals, only: :index
   resources :about, only: :index
+
+  match "/sitemap1.xml.gz" => "sitemaps#show"
 end

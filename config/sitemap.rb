@@ -14,5 +14,10 @@ SitemapGenerator::Sitemap.sitemaps_host = "http://#{ENV['FOG_DIRECTORY']}.s3.ama
 SitemapGenerator::Sitemap.sitemaps_path = 'sitemaps/'
 
 SitemapGenerator::Sitemap.create do
-    add '/welcome'
+  add '/'
+  add '/about'
+  add '/visual'
+  Post.find_each do |post|
+    add post_path(post), lastmod: post.updated_at
+  end
 end

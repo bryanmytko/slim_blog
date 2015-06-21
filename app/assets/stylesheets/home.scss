@@ -119,7 +119,7 @@ header { display: none }
 }
 
 .page img.feature-photo {
-  height: 400px;
+  width: 400px;
   border: 4px solid #000;
   margin: 0 auto 40px auto;
   display: block;
@@ -170,15 +170,14 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   body {
     font-size: 22px;
-    line-height: 44px;
   }
 
   .main-content p {
-    font-size: 22px;
-    line-height: 80px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .main-container {
@@ -187,6 +186,23 @@ footer p {
   }
 
   .top-nav ul li {
-    font-size: 38px;
+    font-size: 22px;
   }
+
+  .feature-photo {
+    max-width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .CodeRay {
+    font-size: 7px;
+  }
+
+  .CodeRay .line-numbers {
+    display: none;
+  }
+
 }

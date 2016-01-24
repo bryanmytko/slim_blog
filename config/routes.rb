@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to:"home#index"
 
-  resources :posts
+  resources :posts, only: [:index, :show]
   resources :visuals, only: :index
   resources :about, only: :index
 
@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     scope :admin do
       get '', to: 'admin#index', as: '/'
       post '/login', to: 'admin#login', as: :admin_login_path
+      get '/logout', to: 'admin#logout', as: :admin_logout_path
       resources :posts
     end
   end

@@ -1,0 +1,5 @@
+<%= form_tag "/admin/posts" do %>
+  <%= text_field(:post, :title) %>
+  <%= text_area(:post, :content) %>
+  <%= submit_tag("Post") %>
+<% end %>

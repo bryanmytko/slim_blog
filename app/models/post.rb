@@ -1,5 +1,7 @@
 class Post < ActiveRecord::Base
-  validates :content, :title,
+  belongs_to :author, class_name: AdminUser
+
+  validates :content, :title, :author,
     presence: true
 
   def to_param

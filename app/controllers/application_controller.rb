@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
       @current_admin_user ||= AdminUser.find(session[:current_admin_user_id])
     end
   end
+
+  def render_not_found
+    render status: 404, text: "404"
+  end
 end

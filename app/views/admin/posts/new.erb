@@ -1,5 +1,6 @@
 <%= form_tag "/admin/posts" do %>
-  <%= text_field(:post, :title) %>
-  <%= text_area(:post, :content) %>
-  <%= submit_tag("Post") %>
+  <%= text_field :post, :title, placeholder: "Title" %>
+  <%= text_field :post, :slug, placeholder: "Slug", class: "slug" %>
+  <%= text_area :post, :content, placeholder: "Content" %>
+  <%= submit_tag "Post" %>
 <% end %>

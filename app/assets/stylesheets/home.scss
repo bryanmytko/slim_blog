@@ -134,7 +134,34 @@ header { display: none }
 
 .about-page .about-image {}
 
-textarea { height: 200px; font-size: 22px }
+textarea { height: 400px; font-size: 22px }
+
+form { width: 100%; margin: 0 auto 80px auto }
+form input[type=text],
+textarea {
+  width: 817px;
+  display: block;
+  padding: 12px 12px;
+  font-size: 16px;
+  border: 1px solid #999;
+  margin: 6px;
+}
+
+form input[type=text] {
+  width: 280px
+}
+
+form input[type=submit]{
+  border: none;
+  background: #ED1BBD;
+  color: #fff;
+  font-size: 22px;
+  display: block;
+  margin: 6px;
+  width: 100px;
+  padding: 12px 6px;
+  float: right;
+}
 
 footer {
   width: 600px;
@@ -142,7 +169,7 @@ footer {
 }
 
 footer ul {
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   padding: 0;
   list-style-type: none;
   width: 200px;

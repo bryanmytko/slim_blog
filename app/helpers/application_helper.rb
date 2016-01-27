@@ -2,7 +2,11 @@ module ApplicationHelper
   def format_output(raw_content)
     array = raw_content.split(delimiter)
     parsed_content = array.each_with_index.map do |chunk, index|
-      (index.odd?) ? format_code(chunk) : chunk
+      if index.odd?
+        format_code chunk
+      else
+        sanitize chunk
+      end
     end
     parsed_content.join
   end

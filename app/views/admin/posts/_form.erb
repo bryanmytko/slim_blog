@@ -1,0 +1,6 @@
+<%= form_for [:admin, @post] do |p| %>
+  <%= p.text_field :title, placeholder: "Title" %>
+  <%= p.text_field :slug, placeholder: "Slug", class: "slug" %>
+  <%= p.text_area :content, placeholder: "Content" %>
+  <%= p.submit "Post" %>
+<% end %>

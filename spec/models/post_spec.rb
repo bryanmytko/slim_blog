@@ -20,4 +20,16 @@ RSpec.describe Post, type: :model do
     post = FactoryGirl.build(:post, author: nil)
     expect(post).to_not be_valid
   end
+
+  it "is invalid without a slug" do
+    post = FactoryGirl.build(:post, slug: nil)
+    expect(post).to_not be_valid
+  end
+
+  it "is invalid with a non-unique slug" do
+    old_post = FactoryGirl.create(:post, slug: "test")
+    new_post = FactoryGirl.build(:post, slug: "test")
+
+    expect(new_post).to_not be_valid
+  end
 end

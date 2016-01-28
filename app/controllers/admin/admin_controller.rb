@@ -1,7 +1,7 @@
 module Admin
   class AdminController < ApplicationController
     def index
-      redirect_to "/" if current_admin_user
+      redirect_to :new_admin_post if current_admin_user
     end
 
     def login

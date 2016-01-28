@@ -7,7 +7,7 @@ module ApplicationHelper
       if index.odd?
         format_code chunk
       else
-        chunk
+        redcarpetize chunk
       end
     end
 
@@ -43,7 +43,6 @@ module ApplicationHelper
   end
 
   def format_code(string)
-    string = strip_tags string
     CodeRay.scan(string.strip, :ruby).div(:line_numbers => :table)
   end
 end

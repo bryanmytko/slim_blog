@@ -1,7 +1,5 @@
 <div class="post-container">
-  <h3><%= @post.title %></h2>
+  <h3><%= @post.title %> <%= admin_edit_button %></h2>
   <p class="date"><%= @post.created_at.strftime("%B %d, %Y") %></p>
-
-
-  <p><%= raw format_output raw(@post.content) %></p>
+  <p><%= raw format_output redcarpetize(@post.content) %></p>
 </div>

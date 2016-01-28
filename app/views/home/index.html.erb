@@ -4,7 +4,7 @@
     <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
     <p>
       <%= truncate(
-            format_output(p.content),
+            format_output(redcarpetize(p.content)),
             omission: "...<br />#{link_to '[Read More]', p}",
             length: 290,
             escape: false

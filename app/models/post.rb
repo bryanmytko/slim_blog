@@ -4,6 +4,8 @@ class Post < ActiveRecord::Base
   validates :content, :title, :author, :slug,
     presence: true
 
+  validates :slug, uniqueness: true
+
   def to_param
     slug.split(" ").join("-")
   end

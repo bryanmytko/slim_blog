@@ -24,9 +24,15 @@ module ApplicationHelper
     end
   end
 
+  def admin_new_button
+    if session["current_admin_user_id"]
+      raw "<li>#{ link_to "New Entry", :new_admin_post } </li>"
+    end
+  end
+
   def admin_edit_button
     if session["current_admin_user_id"]
-      link_to "[edit]", [:edit, :admin,  @post]
+      link_to "[edit]", :edit_admin_post
     end
   end
 

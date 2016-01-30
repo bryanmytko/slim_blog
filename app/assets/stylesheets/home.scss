@@ -138,6 +138,7 @@ textarea { height: 400px; font-size: 22px }
 
 form { width: 100%; margin: 0 auto 80px auto }
 form input[type=text],
+form input[type=password],
 textarea {
   width: 817px;
   display: block;
@@ -147,7 +148,8 @@ textarea {
   margin: 6px;
 }
 
-form input[type=text] {
+form input[type=text],
+form input[type=password]{
   width: 280px
 }
 

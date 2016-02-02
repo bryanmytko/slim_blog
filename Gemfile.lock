@@ -46,7 +46,6 @@ GEM
       columnize (~> 0.8)
       debugger-linecache (~> 1.2)
       slop (~> 3.6)
-    cancan (1.6.10)
     capybara (2.4.4)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -309,7 +308,6 @@ PLATFORMS
 DEPENDENCIES
   bcrypt
   byebug
-  cancan
   capybara
   coderay
   coffee-rails (~> 4.1.0)

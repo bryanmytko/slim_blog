@@ -46,7 +46,7 @@ module Admin
     end
 
     def authenticate
-      redirect_to "/" unless current_admin_user
+      redirect_to root_path unless current_admin_user
     end
   end
 end

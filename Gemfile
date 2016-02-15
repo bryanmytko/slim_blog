@@ -31,7 +31,7 @@ gem "fog"
 gem "factory_girl_rails"
 gem "faker"
 
-# DB
+# Database
 gem "pg"
 
 group :development, :test do

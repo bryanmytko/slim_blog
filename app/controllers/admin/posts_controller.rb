@@ -30,11 +30,13 @@ module Admin
     end
 
     def update
-      if post = Post.find_by(slug: params[:slug])
-        post.update(user_params)
-      end
+      if post = Post.find_by(slug: params[:id])
 
-      redirect_to post_path(post.slug)
+        post.update(user_params)
+        redirect_to post_path(post.slug)
+      else
+        render html: "Error. No post found #{params[:id]}"
+      end
     end
 
     private

@@ -3,12 +3,16 @@
     <h3><%= link_to p.title, p %></h3>
     <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
     <p>
-      <%= raw truncate(
-            format_output(p.content),
-            omission: "...<br />#{link_to '[Read More]', p}",
-            length: 290,
-            escape: false
-      )%>
+      <% if @first_post == p.id %>
+        <%= p.content %>
+      <% else %>
+        <%= raw truncate(
+              format_output(p.content),
+              omission: "...<br />#{link_to '[Read More]', p}",
+              length: 290,
+              escape: false
+        )%>
+      <% end %>
     </p>
     <hr />
   </div>

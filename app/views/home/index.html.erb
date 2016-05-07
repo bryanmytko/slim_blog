@@ -4,7 +4,7 @@
     <p class="date"><%= p.created_at.strftime("%B %d, %Y") %></p>
     <p>
       <% if @first_post == p.id %>
-        <%= format_output p.content %>
+        <%= raw format_output p.content %>
       <% else %>
         <%= raw truncate(
               format_output(p.content),

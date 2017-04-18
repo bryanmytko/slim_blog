@@ -1,0 +1,825 @@
+/* line 1, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay {
+  background-color: #fff;
+  border: 1px solid #444;
+  font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  color: #000;
+}
+
+/* line 8, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay pre {
+  margin: 0px;
+}
+
+/* line 13, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+span.CodeRay {
+  white-space: pre;
+  border: 0px;
+  padding: 2px;
+}
+
+/* line 15, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+table.CodeRay {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 2px;
+}
+
+/* line 16, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+table.CodeRay td {
+  padding: 1em 0.5em;
+  vertical-align: top;
+}
+
+/* line 21, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .line-numbers, .CodeRay .no {
+  background-color: #444;
+  color: #AAA;
+  text-align: right;
+}
+
+/* line 27, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .line-numbers a {
+  color: #AAA;
+}
+
+/* line 31, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .line-numbers tt {
+  font-weight: bold;
+}
+
+/* line 32, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .line-numbers .highlighted {
+  color: red;
+}
+
+/* line 33, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .line {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+/* line 34, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay span.line-numbers {
+  padding: 0px 4px;
+}
+
+/* line 35, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .code {
+  width: 100%;
+}
+
+/* line 37, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+ol.CodeRay {
+  font-size: 10pt;
+}
+
+/* line 38, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+ol.CodeRay li {
+  white-space: pre;
+}
+
+/* line 40, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .code pre {
+  overflow: auto;
+}
+
+/* line 41, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .debug {
+  color: white !important;
+  background: blue !important;
+}
+
+/* line 43, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .annotation {
+  color: #007;
+}
+
+/* line 44, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .attribute-name {
+  color: #f08;
+}
+
+/* line 45, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .attribute-value {
+  color: #700;
+}
+
+/* line 46, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .binary {
+  color: #509;
+  font-weight: bold;
+}
+
+/* line 47, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .comment {
+  color: #998;
+  font-style: italic;
+}
+
+/* line 48, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .char {
+  color: #04D;
+}
+
+/* line 49, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .char .content {
+  color: #04D;
+}
+
+/* line 50, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .char .delimiter {
+  color: #039;
+}
+
+/* line 51, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .class {
+  color: #458;
+  font-weight: bold;
+}
+
+/* line 52, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .complex {
+  color: #A08;
+  font-weight: bold;
+}
+
+/* line 53, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .constant {
+  color: teal;
+}
+
+/* line 54, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .color {
+  color: #0A0;
+}
+
+/* line 55, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .class-variable {
+  color: #369;
+}
+
+/* line 56, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .decorator {
+  color: #B0B;
+}
+
+/* line 57, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .definition {
+  color: #099;
+  font-weight: bold;
+}
+
+/* line 58, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .directive {
+  color: #088;
+  font-weight: bold;
+}
+
+/* line 59, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .delimiter {
+  color: black;
+}
+
+/* line 60, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .doc {
+  color: #970;
+}
+
+/* line 61, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .doctype {
+  color: #34b;
+}
+
+/* line 62, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .doc-string {
+  color: #D42;
+  font-weight: bold;
+}
+
+/* line 63, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .escape {
+  color: #666;
+  font-weight: bold;
+}
+
+/* line 64, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .entity {
+  color: #800;
+  font-weight: bold;
+}
+
+/* line 65, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .error {
+  color: #F00;
+  background-color: #FAA;
+}
+
+/* line 66, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .exception {
+  color: #C00;
+  font-weight: bold;
+}
+
+/* line 67, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .filename {
+  color: #099;
+}
+
+/* line 68, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .function {
+  color: #900;
+  font-weight: bold;
+}
+
+/* line 69, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .global-variable {
+  color: teal;
+  font-weight: bold;
+}
+
+/* line 70, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .hex {
+  color: #058;
+  font-weight: bold;
+}
+
+/* line 71, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .integer {
+  color: #099;
+}
+
+/* line 72, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .include {
+  color: #B44;
+  font-weight: bold;
+}
+
+/* line 73, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .inline {
+  color: black;
+}
+
+/* line 74, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .inline .inline {
+  background: #ccc;
+}
+
+/* line 75, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .inline .inline .inline {
+  background: #bbb;
+}
+
+/* line 76, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .inline .inline-delimiter {
+  color: #D14;
+}
+
+/* line 77, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .inline-delimiter {
+  color: #D14;
+}
+
+/* line 78, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .important {
+  color: #f00;
+}
+
+/* line 79, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .interpreted {
+  color: #B2B;
+  font-weight: bold;
+}
+
+/* line 80, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .instance-variable {
+  color: teal;
+}
+
+/* line 81, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .label {
+  color: #970;
+  font-weight: bold;
+}
+
+/* line 82, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .local-variable {
+  color: #963;
+}
+
+/* line 83, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .octal {
+  color: #40E;
+  font-weight: bold;
+}
+
+/* line 85, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .predefined-constant {
+  font-weight: bold;
+}
+
+/* line 86, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .predefined {
+  color: #369;
+  font-weight: bold;
+}
+
+/* line 87, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .preprocessor {
+  color: #579;
+}
+
+/* line 88, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .pseudo-class {
+  color: #00C;
+  font-weight: bold;
+}
+
+/* line 89, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .predefined-type {
+  color: #074;
+  font-weight: bold;
+}
+
+/* line 90, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .reserved, .keyword {
+  color: #000;
+  font-weight: bold;
+}
+
+/* line 92, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .key {
+  color: #808;
+}
+
+/* line 93, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .key .delimiter {
+  color: #606;
+}
+
+/* line 94, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .key .char {
+  color: #80f;
+}
+
+/* line 95, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .value {
+  color: #088;
+}
+
+/* line 97, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .regexp {
+  background-color: #fff0ff;
+}
+
+/* line 98, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .regexp .content {
+  color: #808;
+}
+
+/* line 99, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .regexp .delimiter {
+  color: #404;
+}
+
+/* line 100, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .regexp .modifier {
+  color: #C2C;
+}
+
+/* line 101, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .regexp .function {
+  color: #404;
+  font-weight: bold;
+}
+
+/* line 103, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .string {
+  color: #D20;
+}
+
+/* line 105, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .string .string .string {
+  background-color: #ffd0d0;
+}
+
+/* line 106, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .string .content {
+  color: #D14;
+}
+
+/* line 107, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .string .char {
+  color: #D14;
+}
+
+/* line 108, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .string .delimiter {
+  color: #D14;
+}
+
+/* line 110, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .shell {
+  color: #D14;
+}
+
+/* line 112, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .shell .delimiter {
+  color: #D14;
+}
+
+/* line 114, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .symbol {
+  color: #990073;
+}
+
+/* line 115, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .symbol .content {
+  color: #A60;
+}
+
+/* line 116, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .symbol .delimiter {
+  color: #630;
+}
+
+/* line 118, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .tag {
+  color: #070;
+}
+
+/* line 119, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .tag-special {
+  color: #D70;
+  font-weight: bold;
+}
+
+/* line 120, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .type {
+  color: #339;
+  font-weight: bold;
+}
+
+/* line 121, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .variable {
+  color: #036;
+}
+
+/* line 123, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .insert {
+  background: #afa;
+}
+
+/* line 124, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .delete {
+  background: #faa;
+}
+
+/* line 125, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .change {
+  color: #aaf;
+  background: #007;
+}
+
+/* line 126, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .head {
+  color: #f8f;
+  background: #505;
+}
+
+/* line 128, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .insert .insert {
+  color: #080;
+  font-weight: bold;
+}
+
+/* line 129, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .delete .delete {
+  color: #800;
+  font-weight: bold;
+}
+
+/* line 130, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .change .change {
+  color: #66f;
+}
+
+/* line 131, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/coderay.scss */
+.CodeRay .head .head {
+  color: #f4f;
+}
+/* line 1, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+body {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+}
+
+/* line 10, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+header {
+  display: none;
+}
+
+/* line 12, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.heading {
+  padding: 40px 40px 0 40px;
+}
+
+/* line 16, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.heading h1 {
+  line-height: 1.0em;
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+  color: #000;
+}
+
+/* line 25, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.heading h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 30, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.heading p {
+  margin: 0;
+  padding: 0 0 20px 0;
+  border-bottom: 10px solid #000;
+}
+
+/* line 36, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-container {
+  width: 920px;
+  margin: 0 auto;
+}
+
+/* line 41, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav {
+  padding: 20px 40px;
+  font-size: 1.4em;
+}
+
+/* line 46, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 52, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav ul li {
+  display: inline;
+}
+
+/* line 56, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav ul li:before {
+  content: " | ";
+}
+
+/* line 60, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav ul li:first-child:before {
+  content: "";
+}
+
+/* line 64, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.top-nav ul li a {
+  color: #ED1BBD;
+  text-decoration: none;
+}
+
+/* line 71, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content .content {
+  padding: 40px;
+  padding-top: 0px;
+}
+
+/* line 76, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content h2 {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 32px;
+  color: #000;
+}
+
+/* line 82, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content h3 {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #000;
+}
+
+/* line 90, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 95, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content h3 a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+/* line 100, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content p {
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+/* line 105, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content p.date {
+  margin: 10px 0 30px 0;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #ED1BBD;
+}
+
+/* line 112, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.main-content hr {
+  border: 0;
+  height: 1px;
+  background: #e7e7e7;
+  margin: 30px 0 20px 0;
+}
+
+/* line 119, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.post-container {
+  margin-top: 40px;
+}
+
+/* line 123, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.post-container a {
+  color: #ED1BBD;
+  text-decoration: none;
+}
+
+/* line 128, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.post-container img {
+  margin: 8px 20px 8px 0;
+  width: 50%;
+  border: 2px solid #ed1bbd;
+  float: left;
+}
+
+/* line 135, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.page img.feature-photo {
+  width: 400px;
+  border: 4px solid #000;
+  margin: 0 auto 40px auto;
+  display: block;
+}
+
+/* line 144, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+.about-page a {
+  font-size: 16px;
+  color: #ED1BBD;
+}
+
+/* line 151, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+textarea {
+  height: 400px;
+  font-size: 22px;
+}
+
+/* line 153, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+form {
+  width: 100%;
+  margin: 0 auto 80px auto;
+}
+
+/* line 154, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+form input[type=text],
+form input[type=password],
+textarea {
+  width: 817px;
+  display: block;
+  padding: 12px 12px;
+  font-size: 16px;
+  border: 1px solid #999;
+  margin: 6px;
+}
+
+/* line 165, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+form input[type=text],
+form input[type=password] {
+  width: 280px;
+}
+
+/* line 170, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+form input[type=submit] {
+  border: none;
+  background: #ED1BBD;
+  color: #fff;
+  font-size: 22px;
+  display: block;
+  margin: 6px;
+  width: 100px;
+  padding: 12px 6px;
+  float: right;
+}
+
+/* line 182, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* line 187, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer ul {
+  margin: 0 auto 20px auto;
+  padding: 0;
+  list-style-type: none;
+  width: 200px;
+}
+
+/* line 194, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer ul li {
+  display: inline;
+  color: #000;
+  font-size: 12px;
+}
+
+/* line 200, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer ul li a {
+  display: inline-block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABeCAYAAABmZ1vAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjVENkMzRjkwOTlCMTFFNTg5NEZEOEM3NEIxRUIwQjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjVENkMzRkEwOTlCMTFFNTg5NEZEOEM3NEIxRUIwQjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCNUQ2QzNGNzA5OUIxMUU1ODk0RkQ4Qzc0QjFFQjBCMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCNUQ2QzNGODA5OUIxMUU1ODk0RkQ4Qzc0QjFFQjBCMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI%2FPsmHmeMAAFLhSURBVHja7L0FnJTV%2B%2F4%2F7A4dSkojDcsiHUss3UgLAtIg0iogoYRKp6IiAh%2BQkgaBJQWJpbtr6c6FRenY3%2FV%2BnMN%2FGGaW3ZX0%2F31erwdmZ544587rvs99zomyc%2BdOW3iOqFGj2k6fPm3btWuX7cKFC9Z3KVKksBUoUMA2ceJEW4IECWznz5%2B35cyZ0xY%2FfnxblChRbCtXrrTduXPHtn%2F%2Fflv69OltlStXtm3YsMH6vGzZMluZMmVsCRMmtMWJE8d24MABW4YMGWytWrWy1a1b1xY7dmxbunTp4jx69CjVunXrvPX%2B0ro205UrV27quyi3b9%2F2Dg0NjRIjRoyHdrv90VtvvRVD77oQEhKyLE%2BePLeSJk16ftu2bcE8e8SIEbZhw4bZgoODrTbTF9o1fvx4W%2FHixW23bt2y5c2b17Z582bbkiVLbPnz57dFixbN5ufnZ%2FWDY%2BPGjbaUKVPaTp48aWvQoIEtKCjIdvz4cdv9%2B%2FetvmfPnt2WOXNm24MHD2xqV7homiNHDlt4D94fnsO0V3SyXb582fqcKVMm6354V7JkSdvhw4dtR48etfosutnOnj1r8Y17ocHcuXMtXtAn%2BHM9JMQWPXp0W8j169Z1XJ9L%2F68XL%2FWbt%2BiUcuKECckXL178XqFChVolT548%2Fblz5%2B5fvXrVdvPmTasN3A%2Bd9Lyoou3dhQsXfpcla9bNH3%2F88ZHbt25d3rdv31%2BffPKJbcWKFbY0adLYLl68aLuu910Vz9KkTm3xbPXq1VbbCxYsaKtevbpNcmA7cuSIdR20XLRokdWHXLly2Xg339euXdu6Bj7RV8mF9SzuDc9ht72igwZKuC2iJU6c2Hbo0CHb7t27fb28vCouX77cN1asWMkljFklyMkj%2BOg%2BCxYsgAjXxKg9esfZhw8fHtbzl%2BmZm1KnTv0QYl27ds2m723%2FdzybTzFjxrTFixfPFkNCLsGPd%2BrUqWzL%2Fvij7I2QkCziWe7hw4ZlkmTaUM3AwMDwPDaOzm%2F37d1ra9umDUJ9WQq5Uc8%2BISFeor%2F3SCZOe3t72%2B7cvftY6V%2FF8dIVBOv69ttv2xIlSmT7%2B%2B%2B%2F7bJYflu3bq0qD1JZViMz12DR%2F%2B0hJYgvBfM3f48cObKXmHxGlnSxLMz8jBkzrpQ1u4lVwZv83%2FHkIUP12OLu3bs30d49e8rIylc6ePBgibt37yZ3w1hbaATfYQyUZCKxPPL7eGUd7WbOnHnHx8dndZp33138zjvvLEqXNm0QShoRy%2F9GKQidEgyyiA38ksvLLqK3EpwpL2VI%2B7I6e%2BPGjZRr165twSnodUGK%2Bqcg1y9q05pkyZJZlvL%2Fr14Fw4VSwCfgEBBz%2B%2Fbt5QS3PhI0KyNI%2B85LbE4MwfJynPo8eP26dYFZs2adIQWZGTdu3GDaRltfBq%2FsL5roHLhnsLncb%2FFZs2Z9KRddOrw4%2FUUd8l5JddZTHFJP7nyb2jNIsGuWvMojiP%2Bq2%2FeylYNYTcIHnLErfml55syZhvo%2F%2F2vQvKiKO0pyCiL3klEbr3hjtKD5SWSK%2BOJF8sr%2BIq0RLvrevXsE4DWXLl3a8%2Ffff3%2FvdRQQBbN5hg8fPl0e5JQC8SGxY8f%2BAW8C9qUvrxIDv2jPDp%2BIAYnLvvvuu2aK%2FzorwM0ckedAH7yOlCxY3vik4r4HsvL3xf8bOv%2FWO0JljGIEBwe%2FLXgWTe%2Byh4SEJNLfaaCvvgvXe4Q2kunsPm3atM9Onz49smnTpkPk%2BS8AkV%2BUkjx3BUGriTGwSIoBcq9fv36oLFHxN0FgBCNSCwePwILmyZPn82LFii2D8CZr91864FOSJEks2Dtp0qTS%2Ffr163%2F%2B%2FPm84b1fscFfadKk2ZwlS5atEvAtxYsXPyueBy1evPgqcBUoTbaSjBSwjayU4hcrk0gmqlChQtEVB%2FpMnz49mRTIR98XFJTLK1qnoW1hHTdv3oy5bNmyjqtXr25WokSJrypVqvRT8uTJX4iSPDcFoXGc6jQWOfqgQYN%2BUkDc7F8B0RgxULbr%2Bv%2BALHtQqlSpgoVD78vVPhBseyDLhWWyc8oqRRVx3xJ8SycCZlW88Y5JMUb0ENTKJku69Ny5c0vq16%2FftECBAud37Njx0gPEF%2BU1yA6JljYF3SlGjx79%2FYYNG2qG514J%2Frn8%2BfMv0P9LypYtG3j9%2BvWrKICQgZUOhl%2BkVvG%2ByAKQjcCa95F2JvUqz2H9T6pX8d8OKc%2BOmjVrLsKDyQt5b9q0qZBij7I6Kwk%2B5eJ7T4cU823FsT8qnm0qPnVJlCjRchI8z5NPz0VBCJYktFgV2%2Fz588vMnj17EgIa0ecw9qHnHFNAtl7WaPVff%2F21W9ZtV0BAwN3du3fbPvjgA4voMMJAINwrJ8og62Xz9%2Fe3NW%2Fe3Lt169Y%2BUpzsep6%2FvJi%2FiJZZzPOKSHvEpPI9evQ4Wq9evfaCCmOBjCdOnHijlQPvTpB7%2FPjxxvPmzRukrxOHdY%2FoF5o7d%2B7Zvr6%2Bv6VOnXpJpkyZbjPehQIg7DJIeF6L%2Fjw%2FPHAUWAeskoxY0A4Pzd%2FyOA8lQ4FSnMAyZcr0kKEtvHLlyrpbtmypI1lI5Ol5ipdyDxw48A8ZsiF58%2Bb9QpAxFEV9Hh7F%2Fm%2B9hgnCUZI1a9YM2bx5c8eIPidDhgx7RZDJUoyFItY%2BudhQLNzkyZMtRYDwDHoxQIUSoSAoJMyAOea8dOmSDVfL4KGIv6dUqVJ7xAwYaxNkSiclK%2Fvnn3%2FWl6svEpZlchGqmGrHGD2jQosWLepLSd7InDD8YcxJ%2FY4uDD9c3qNVWNcLIt1WMDxOwjYqbdq0e4FNWH6EGeEjTR9ehQjvgZLgAWTYLEMo1LBOQr9OxvJbeaGm27dvbyXYnsrT%2FfI%2BndSvQmpvc91%2FgHa%2BUgWBOGBYNT5l%2F%2F79p0mwC0cAPt2UNZon6zRKOJI0nmWdwacE9gR9jsDMsjLhYQTXIAjcw2cYihLztxh%2BrEqVKqNE8FGCS9kCAwM%2FEcHr6l0Jw9NeWcoavXr1OlirVq0aUt7tx44deyMgF%2F0nBnj33Xdt69atSyfvPlOGJren6%2FEuir1GZM%2Be%2FQfx4Agj7sAjDNLL6i%2B8410oCjGL5OpitmzZ%2Bvv4%2BIyUfDRftWpVJxnMpB6yk4W6deu2tXDhwh9Vq1ZtLu3%2BN%2Blgr8gSnU6AP0XwXL%2F88suOiChHuXLlhgn7pheerS%2FLHMioNm5bbvSFEJv24mGwfpwS8H2ZM2duN3z48HebNm36hQTo73B6kzQzZszYNnbs2KrASZT4dU4H0zYEHmssY1BekGpHWMpRsGDB5aNGjSpYoUKFDuLnEbx2eI3Ti4aGeAPxMERGdeiwYcN8GjVqNAKo5u5Qm2NJieYokP8K5SA%2BiqySeEVW6KhLWrhwYdWuXbtul9YmCs99suDTGzZsmEqK0VGNvkinwaEv84CoKCJwTNDw70KFCg1WkJhS1maoJ4K7HkOHDv19zJgxn6MkCODrrBzwSQJVf8CAAYtBwx7g1M1mzZq1krEoI8OxCasN3AkvPf6tp6CtCDCfrdPJ6BgDZK5FaeUVrolnHbp3715cMHC3p%2BcvWrTo2zZt2vwIHSKrJF6R6RQ4X8FTnV9%2F%2FfX38NwjCxbUsmXLon379v1QDT1D0SPu81VaJjIreBU8lz6HdO7cuZMC8kwEiOG5X8QfOnPmzC8hPBDmdfIktIXsEYWZ8u6N5PEme7q2SJEi6wVJcvv7%2B48ixkM5DJ9feFzkgGwIPl4OWuKVvRxenz44YNNj1ILSwjcGCDNmzLi6Y8eOuWrUqPGjp3ds3LixzRdffDGGZxGDRVRJvCKqHARrwu%2F1FixYMC0cikH150DFGZnSp0%2B%2FFsXAeiOcr8sBwYl5zpw5Q9%2BChL39c%2BXK1UrC9UxKCtP3EWzpRcCKlXodYhIjWBgxwaVGU6dO%2FTUsqKujsATzMJXJ8PdFKga0ZowD740chIpeWRR7OuJYG5XlZNmS6W%2B7%2FuYakjTET3g0YkqTGOB6vIme9UgK0K5Tp04N1G%2B3Ayi7d%2B9u%2FuWXX47hHpQwInzyiojFhehLly6tNX%2F%2B%2FCnhIMZ1walyH330UVdwPylBKysga4tAckAsnsugorEOfEfa1pR78DvXQyD%2B5zsyWYz%2BoqzAHAa8%2BJvsliEe14bFbGfXbf6GIaQtK1WqNKpDhw6%2BsmZBz%2BqnLFRvCWF3lIT3v2rloA1kAKUctaZPn%2F6rJ0Ht06fPx7Vq1eoIb4C5L9JomeQJAg1fFD%2FYSpcubbuu2DNB%2FPiWQtN2kjR4C%2FqAnJw9d84aV6tTp45Vps80BH6%2F66jwNeliDK%2BC%2BMk%2F%2F%2Fyzn%2BLiM%2B7asGfPnuZdunQZxXPhVbizWOHFmQijXHXByZMnz3zWtQr2tlavXr2ctDuYDAgai%2BDTKbIKKAQEMfMhIByEQDhpPJ2GoIawKAHfMzpLe7F2e%2Ffuta4zisP%2FjNbybD7jTnmHKaeACRCXAzdO8Mm1liXTdXyH6%2BZZCIwIeVDxVZZ9%2B%2FZNnTVrVu2w%2BquAsK%2Focrpfv36TgCkvIrB9ltVztqo%2F%2FfRTUfFqpgflePD999%2FXaNCgwQLmyGCxX5TXMHGDGSPJly%2BfNVfDN3t2W7C8wZGgIIvepm94C1OE6Fw8SRaSVH39%2BvWta0xaH56ZJAwyIai19bfffvP78MMPA6Q0T0222bJlS8vmzZtf%2BPTTT3tj7MNT8Gg3k2rCCvQQajE%2FzZAhQ2Y9iygS9ABZrpqCYfektZbXQWD5n9Qogbksl0U0hJYSZ%2BaC%2BPj4WEqENcBiCLpYWTIm%2BgDVmNxD6QK%2FM9kqICDA5jpSzvUQkj4JW1sKYfoHQfEyuGkUQPDCwrEoWrp06SyvhSLKElkWjOskPI%2FGjRvHINVZec7Pwuq3hHKi3nf8k08%2BWWtSy89T8BCUsPgEs%2FEcEyZMSCDlmOvh0nuCu6VEo7XQwBgt8wwjmCZwNobN4H9zmt%2FDOjASvAOaAqEwhnh67sWQ3RZ9wuqTaxDPszC2VapUsXjK6L0ZtTcIB%2Bimd50pUKBAMcnGEspXXJ%2B5du3aXjK0W2UkAjCOyEVYfPIyI9GeTscYgG3MmDGTRMAUYXVILnBc1apV31eH7tFY82JcY9GiRS2h43tDXBTH1N2YknhiAayKmQEGUUgDc49hFpYDpXE9TFBnoAbE4xnMApw0aZLtvffesxQepSS7w%2BxGLI%2B5hhmBbdq0eWyJERiUUMr0uSDBF88SYgnnNOHoxGbGYnhoG94DOng6Caxp69atW21iPNkqt2M7I0aMKIMCW7MDHZDXZOFQML5n0NcIrrHgxkqb01xrvDM0Mh4MnkI7%2FsboMQMxS5Ys1nMRcuPFI%2BONkAneBZopVaqUFU8AEY0C8ztnmTJlQgQxy8vwuYXIip9n6khv0se01xNt7bzEk1UCpmCxBTWGiAlFw%2BpAoUKFxkmQmmGRTYYKYcdbSGkexxSuwaxRIsMEBNu5w1zvmiUy%2BNMdEc2JMiE0Jh7BUpiYxwiwYbajDshiLm3D06E0TO1EkPhbVmkwkEyWa1AYZEjRvXv3McLC1TAKWMrn5UUwLp4Ex%2FRBGHvw%2BfPn3Zaoq001pBxr6LfpE3S1PInoBNRKq2AYr4onvi9akQWLr%2B8xKPCU%2FsQUmsDQQFPey%2FNQAKNUGKUSJUpYAowgGzj0rNjJxEA8B2WKpeecv3gxqt5x31lG4A%2B0oI20T%2FHwYy%2BD10ZmgWKKU0MyZMjgX7Zs2Z0SdNeypxji02wZ2Zx4t7CU1u7JzRkFEcSodfjw4TDLR4Qr59SrV68ZDTfz0ekwhMTF0gD%2BflVpXTOa7Byce0w9OpSKRAD34PFMXFS5cuXBYnYiwS2P3kTeruqcOXO6%2B%2Fv790O5n1f6N0%2BePG6%2FR9lR7k6dOpU%2BePBgJ3fXtNfRpEmTuSY%2BMkEx%2FWQOOP0jBsSA4IUEw2zRgdaiAQYUBHFDSmUZENEHI8azTDwAfKKYEwFFODGKpjDxWdMFzECenhNV%2FbjPMyVvFRYEBDTWc2eID7ORIePZTLtNDML6BVQJM9WXagyUBY%2BK9c%2BePfsFGYaSikl26j1RXd6bY%2FDgwSNmzJjRHkXGk7hrp92UdLgGhEAQvTT2wIEDB4TFOBFz7ZQpUz4kTnEEt1anSc3hYnmxWdhAZ1SssLT2PsTEShtmvSrFoa8IMooNobCMsix22ilGPDh37pyVQYEeXFuxYsUurVu3TipP0tDTc0X0r%2BRR5zdu3Hgv0O1FDbjRHtotWBdXMdtEd9dIUSepHT8g5AgWfaWPLKQBn1AK%2BEMbeZ5JoFjxh77HQ5iEiTFy3GOykQZiwc%2BzQhvEfnxGFp6VNn7okDO1P58Us6tkZmafPn1aBB05UjKnAvlMGTNKTwLaiAeVpCB3hw0bVkfKeY828Vzez4kCodRG9gxaAT7LeO%2Fv0KHDR7p3uuv79Xu7JUuWzJRxCfRUt2V3N5LNi9BANEx%2Fpg%2FL8w8YMOBDBc%2F3EQSUhHsJfkx9Pg02VbDS5gBZ5Hxy2QcpJhNB1oiYy6Q457EQL3McwYwXoLiyjEn27NlTZu7cuSVk%2BbIePXo0o9p2wNfXt7yYcZsVV%2BgTq4PQl%2F79%2BzdS%2FJJNkCOPh8fHHD58%2BEjBLH8sYmRxt%2FOBhXbXfqy0IPAgCUoy13sUtB8YPXp0Y%2FhCHAdvEJ5t27ZZVhbjaL77t0aK58RQXxFYo1DPUm4gkuhYrG%2FfvoukLLHefuutGhbuV7seqj1fdOkyyWSZJGPbpcheGAQU2iwmgbLyGSMGj1zjO2j09ddfz5D8FZFnb%2BfaDr17ogx5Wp7Fu12NmZ1MkyvhwWXTpk0rsW7duqZhdVKWtInc41kKDI0VQhhgmnNwR6c2btzYaN%2B%2BfWUdaV0%2F%2FcfZVB24KWVaIAv3rRi6%2F0VPd4WYEA1voXel3717d8%2F169fXEnFjOV%2BnNiZevnx5kxo1aowkECSQgy4mLdmuXbuGsnYbxYy47t4jg1FUAXOrOnXq%2FMxovTuBkZf5V2lerL2CzUwS%2BE%2FcjVv17NmzjhT6EW03gfX27dst74FheNllPs59SZU6NRml%2FH379Fl%2B9949u0lE2AXfHgjKiS9X0qZLd9Yna9ZtpcuUWSi4NAelBloB9awM5L59FjwsUriw5UXc0Ql%2B4R06d%2B7cfsuWLeUUU2dy%2Fl38e1d8aicj8wM0c037PpHmNRkiLlLw0yWsTkpwBvbq1WsBngPrZAJFFMOMQRhG8ZsaV9ZDOjC2nvGhBO7DokWL9pPL7SGFeuTcUPMsk5lCwN0JnBnvMJ7Mk1Dxm7xFV7nvb3WNx1zjoUOHqslFj0SQzPwHi4m6v2XLlvv1d3t52fGe7les0lE4%2Bn%2FAAqzbv4nBiOecD%2FqIoEyfPn2ku%2BsVE%2FYQj%2FbguaEDMRUJFBkpKwNIH%2BDNyy6T4V3vJElCO5J179YtAOVAKVgVhRoslKNg%2FvwPKpQv39bH13ejFPzkX6L%2FBRkZUAYKDkxEURgCSCMozxpd9MV5vM35feccA449evSo9%2FHHH291bdOaNWsGip%2BTy5Qpc43Yyvl%2BO8LtfCDcYmx9wYxynjopAd6loLEraVLwJ41AU7mXsQqTbTCDcgihNL5IWIRDgBYtWtRd3qRK6dKlq8giHEd5EWjGL7Aeekd0eagE%2Bj8NC8rpttgulum6fjspgT6jNjDb7RFBtkk%2FEgzqjPPbb78t0XOeWX0sCJVa%2BNhLzHhkgncYYFKZ6dKl%2B1WEryDI6HYgUZYrvZTwK8UtPU1aNbKH8zRUk0ARZC0s71bK9dq0adMe%2Beyzz%2FoQdwA34AFejElnzn1Qv3zVrzui9RGjNP8G5sJ35MFTESrPZizk0sWLttp16iy6Ghyc2CiHdT8GVW0IOn7c68LEiQPUTu84sWNfSJ0y5bps2bPPbtCgwVqMMEYKQwkN3pLSeDuUHONoBpmdM6QcZOLKli277YMPPvhZXtd1LkzMiRMnditRosQXJix4rCBkHcyBu6IeRpitdViE%2BPTTT79gzIABPpOeo2E0EEF2xoAOjxRdChCusldpu2%2BXLl02KdjzFwEO6u%2F8UtjyZ86ceU%2BdzCvipxLhvNxN9Cd1KcxN5o0FAw4qcNuuNm2VZ1ku%2BHZQ1uedL774Yr2UI1142iImJ1y1alViKd1FmIsRAJqZVST5%2FPnnn3cXPaqxGIG7Zwi%2BtReNf2jRosVlrFNkDwX%2BTwgiyv7TTz8Ndndt7969P2HEmvfhVYG4DLweFL8Si8cIAdZYvP5Y1rO16DShXLlyEwv5%2Ba1GgN0lbsLrHawFHCT07qqckQ9QQNu2bfufOH48pzfXuKTv1WDb1cuXva5euvSuCaUOHjyY7881az7dsX37CqGM%2FsVLllyBZ3RFGZwojhknMxDfOXRQzNF58eLFtSUDT4xvLFu2rMOgQYOGiLeXnGNGO2MVRrsdAVxlaalHcFyrVq1J6uAyxkfwFs5jGKYIzTnQcWRKojgMRLiO48ePJ1awHCiLJsMbkj68FZhmshS8kHBnVxuzqy2N6Jus6uZmzZrF07PThbcdUoiYekYsrBb9I3XJkpwVKlSwrCTPlRc5qmd%2BLeL29fCYtwQvG0nhh6DAzrRBiMN7mMX0aAdCrPiwkLyHn%2Bt1wup%2Fii8rSHuabI85ZUFt3o73g9lv37lzQB7OW0ag6erAwKZ5cuXami1btl%2F12wIp4CmTWg2vVwlFDpxSz6EuZetkNhUo55Syd43igN5PwTtS8i7KZY2JqS%2BrVq8uxSnP%2FkP%2BggXbowSubePdGDIMPfc5Z0kx6G%2B%2F%2FfZNeZGvx48fP8JFuaNJST6vW7duVxTE8MluXoDGI%2FSTJ09uGVYFgRSkjxlscx7A4eQZBoo4B4u833GG%2B5CAU1GWyPYvD9M%2FCXGE13hSf27L89wygTmew6StGVgzxZPC%2BkN%2B%2BeWXJlLmDO6eozjhYz8%2Fv6EpUqQIjeykMKNMXqInHmH8r7%2B6HYupU6fOl1hXeAntTcq2sCOQNd6dZwg3LhwxYsSj%2B%2FLIof%2BMxOfllKAMlCGYUeX99yfnyp37z8RSyL8ccVhYB2MnjJcc2L%2F%2FiRorA3%2BAX7LgYyzBY4wovIqH0lB3RZyr9o8eM6bd2nXrchf086sVO1asC87tMkkY3k%2FMZRaNMB6GWKx48eKjlyxZ0k0o4InM3%2BHDhz%2BW0vXPkjUrhtmy6HZTWQvDFVPklZWr7Kmh0rzBesFhMfwJfEfARD6bxY5doY%2FDktzVfW%2FcXG5GY3PmzHndjAUYZm3atOkJ5knw7wlC9R4yZIjbeReiT0bh%2Fw99fX2nmvGBiB45URC9i3orxWqpBFGqul6TN2%2FeVYqJNuLJEQTnNmI9nRdZ418Fy6f8ChacKZhVh1iAVjGqLsGJrbPJuvXrm%2BTIkWNDgfz5xyd9550pkpFbYQ34mu8ZcXeGKbwTOKrYr4aENq8XVj0SsQ73RAWy6%2F%2F9%2B%2FcXVvy8snHjxv6xYsW67KyMfMagoJB4bYyB6Tfxl2DY3fLlyw%2BSFxnuEufF37dvX%2B2GDRuO4T4U0k5%2B3aRip06d2shT46RZf3fu3Hk0bpIgyZlIeA5SoTzLFXtCUN37QPhvhxj07pukICL8DSnIXQhtcvsmS8J4iLNVUlA8ZeHChd0PHDjg4%2B5Zc%2BfObaYYb6oZJ%2BD48MMPw92WK6Rq9V4wvJ7VwN01Pj4%2B%2FWEscaBzESJnNl9fK%2B647zCIoY6xi2ZNm361YePGOljmqHq2BcEcMcgDXSvc78eZ9t13u6VOnfpnwbcJ8kSXSO5gDF29CsKJQbHGKuin2sF7%2FpbnnD1nTl8jE5HNnFnlQSCWfxIPWWbPnr1QqCY%2FBp42mX7TDtLoGCTS2mT9nMt2pLDjxLce4m0C5%2BfLszSpV6%2FeGJ5D%2F%2BzgUggnqxNjwIAB5T01LEuWLNNF%2BJOObNITDUZAcEngPtc5EcZ6JE6c%2BI1bfY3BQghvpoI6Mxdr7Dx5B4XJnDnzeCnIYA%2FJh2J6XsaCBQsGeRoXCevAAAEXLss4Kf74wPV3CW5QyZIll8EfglFngeVd1FnBZ2fecSjmONKrR48GX%2FXoMclSEta0cvTVigUcGcnjJ06k1TnocFBQl927do0rVrz4SHmzE7zPKKHlRUQL6rgYNARy8ZkK64AFCz48fuxYFq%2FnVDkB9bz0fMGifMOGDftp4MCBbUhKWP2l33oHGS7iNZSEbKiJyXi%2FEM%2BN0qVLT5k3b94Tg4eCpvnlUTPkyZPnCIpkNxOWFKwVFr7OEAa8msKD3THXeBRy9e46z6j69u3b97xpCpImTZpdDILSZ2eFh15ACONNTKWx8P9U4fevFVDHcjfYrMC5rGKBoMiMPRC7EENs3rzZV%2FTO6fq7lGMC9VqueXyTvMAaIiCuhaL0rUSJEpM7dOgQ7%2Fvvv%2F%2FpvuCyN3jfKWjGYns5DJ%2BuTzhp8uTO8xcsaFemdOmxuneY4pXjQRgMWXA8EN4CWUgpOGgtVKfv5s2f3%2F3feg93416hOqdMmdI6a5YsE0uUKrXJqiR2eEgz%2BQr4j9EgqIeOZlXJChUqjJfct3NJArF4XXW1f7A14A1e5cYtW7ZU9dQQue5t77%2F%2F%2FkoebEYsnRsJw6dNm2bhPYTHTbBLo%2FbS2DdpqwF5hd3AK%2Be4yoxHUMHqPIjpmKt%2FVgHgPMUIdd09j20ehM9%2FwqBEVEgY6GI8SMJQ0R329%2Ff3n2kmJrk78D5mvodrjEh8IoEYOWXy5K2DBg0avmf%2F%2FkJRXGcYOu6zOxRFwhNj1uzZbZf98UfzatWq%2FSAlGSihuxrqyIYCaxhExgPL45Q8dPBg9ijPUTlMm0gVP5BMTZw06efGTZvmTiFlsDyFgy54DzYEwht89NFHFg2RR%2BRe8HmH2r1f%2FX8CFisOqSg5HszcIDvwB8Fm9UFP7ahYseIcMjgMPLnLEuG22Y2JGWPuCvNQDGHStb%2F%2F%2FvtJNT7Nm6Acsjqn0qVLtxbaOFsY5xjCOc9uBLNKlSozPCmIAvUCu3btSimYdSaii5qZOR8Kct93%2FU2eY4MC9MM8E6jnasDMXBt31huDxjlhwoTo3bp129y9e%2FfRXbp2LUQmzHkQ7ylFIU75RwBjTJw4sXPKFCnqS0k7CPfP4l5GuRkxx6D%2BOmFCV8s0M1%2FneY%2FaM%2FaifsnT55o9c2a12nXq%2FH7e4UWJO0Id2Ud212KiHbSg2hiPgrKUKVNmhhSkt%2FMjpdh%2BQUFBKQUNz9ipeJTg51WAk8OTG8uaNesis%2FCwuxFerBBuzFlgnBWI36SVjG3Ee1O8hwTqmgT5b7O8qTM9EFSgjKlmdYaaKVKkWCnin1PM4G5nrHhiZDEJzRSgAHMmwnsACRTjvS1%2BPbWuVY4cOZYAB4hTXOEVSkFbeZ%2B7DBQKpef2koFsWqxYsZQxY8f2gqdeLoN4noTT7hjvOHP2bPLfpk6daY8a9aeiRYu2RTglrLZTJ09mPHb8eBmUyfaiVmAn1hE0nDZ9equi%2Fv6%2FM9edDFQMB1SkffSTv0%2BePm3bvmOHLU%2Fu3FaWS555sXjd22XB7OhCVAV8fX3P2EeOHMkwfNkwcPgRQYddxoK5BuBmkWIzBuIGpli4r2fPnj%2BQfn9TFERWMEfv3r27C5v3M4Oprn2nz85GgcE80SpERN%2FpQUHYF7GshHEKwsp%2BjOE98MJMWhONn4pvBOtWUgVBQBzlSexlKTDKY8YH3MWHag8KlJq%2FrQUR5G0iEidZA3KgBBkMeZM2%2B%2Ffte7d4iRJV344f%2F6GgTwusuHckR%2BfDm%2F7lkKKXFK%2FeES0uQl9oZkp8zOQ4vMlxeTiQE1muIkWLbtNnlqJK6ZIUKSnDP9vOhBPFD5mxfu6OVKlSbZbLcbsYMMTEVZGbJ%2FftToiwJKNHj267bt262m9akD5jxoy%2Bgo0ra9euvYFg1ngLBA1lYMNL0pnOA6PQSQRnx82K7p6p3zKxseSz5mO7HpSob9i4MaMbAb8eM2bMnZTku45BhTp4gBKQnndnwMhANm7U6MeFAQHdr12%2FHs1ksSIaK1iDgf%2FEmrat27ZVuh4SsihhggTNBDcrmKzTizxQ6tu3b9tPnjjhJ579jjfFs6AkZh4MK6hcuXo1tb67LWW6jGFPnizZw6w%2BPltdFUQxVEY2DWXrAKbGetwos3DhwiuZQmkNnLi4ZwQFxQJvumM4dTFHjhxJPG7cuJ62N%2FSYOXNm%2Fxo1ahSnf8YNA60gulzw4wk65gBzS1BXOtdOuVimxPIEMXXd7Yi0o2KlSrYJEyc%2BVQLE5pfyWH8RhJoFDJwPFBhrSe2Wu4UkaLsg2tWmTZt2HDps2A%2F3qamL5ExIa7YfpSl6h%2FhedsQPP%2BwLvn49lrcbz%2FW8D28Hf8aOHfuJ%2Brotb758p0MfPvSS54xq9%2FZOoxAi44KFC%2BtJZuO3bdeuCWMmpKGZk%2BKbLdu6ZUuXVnN%2BnsKOPAri49r1z1uy%2Fm53fnLs67CfbZ7dzSuG%2BOS4Ib5rfh3BgTGzZ8%2F%2BWMxL%2FKYqiLxEMfWhugK7uUAtI2AEtniVP%2F744%2FHyM8ZoiBbHRJNg9TuB6%2FMU1KaXNc9apEiR7RFphxhoC75y5anJa%2FHixTvIdtuuVdnmQCkIRglMaZu7Ve3J6Pj5%2Bf0oY5hBnr6DGTSMVMYJKOOosxJ9KOb6x3i%2B6JJ6Rzy0a%2Ffucq3btTuUNEmSK9QA6q324GvXkl6TAaH%2Fv8%2BdW1BxykXiMlbGYXBbNNlnkhlOyp4gMDAwmV1uJIkelMTdOwWfLgknb3e3TZYJXnFhZoUL1%2ByIhCHe4sWLP7a94cecOXPayIvONYs6cBDg4aJJHbqh2zkp1n4JWxEP6d7kisu2k0YM7zFkyJAYggdP7bny3nvvnSWDGFalsFk4AbjrbkE9%2BHtRSlLIz%2B%2FT7NmzHxfk7ieoGMvhYv4ZMIyIgDtnupz%2BfuEHo%2FZs4iMPrfOJbRLSp0%2B%2FZtCgQY3kiU%2BQ1sZwpE2b1uKhDNkFqsBdZXzy5MlJ2bAxlqdqWd18TAJxxznf75ydIjAEcyMsruld3P3ChQtryYqkftMVRBCy1Jo1a3wFi%2FaaYkPcOcaB8QnnJfbNYnei3RH96VZBRPPYEVndj0PKVHzBggXJXOGRlHErxohSIU%2BH8XZ4dD47Z2zsDgsPRj9x8iQz775v37793IEDBzbdsGFDmctXruS%2F8ddf9igveCHr5%2BVFLJgnT6F%2B3ooRPfqldGnT7m7SpMmvjx4%2BnAvvevXqZZXjM3eeBBLjNEJK%2B8SPkzIyTwxB6Leydl3kMYMl4h9h1ybnNa6MckDkSsLFlC%2B4Yluzk5G8U1Xbf%2BSQR%2FhAwrOX2WnORgBrxCw3Z%2Fzv2KPxcBhZn3I%2BPj4n0b3wvp8tCaQgrgaMAd4rTFwLCw6ZCmsW0UCZnRXEVGIb%2BDhr1iyWOzqVI2fO3hKahVcuXw6YMGlSEgs2vUZrKnvsq%2FqWSnFFqZIlx9eqWbPX9ZCQq6zcwsDu1eBgC1ZVqlzZK2asWI9WLF9u8Y5iU8lxsKuCKPxob5d7SRRG7v0ag3%2FOaU6zEjdE5sUEqqbGxdkqSamiKtDJ%2FF9REGH83FhhBkuNtzSpQ1Z9dBZQxix0vceRQGIyed4Ipbz37t0b6i5GFC9C4UlYc2bgB15%2BuQTCtNkZXhkvg0c8evy4bd%2F%2B%2FR%2Fu2L6946XLl3NGixHDK8IQ6xUedurVFG%2FMnju3XtDRo7lDQkLOHNy%2FP7h8%2BfLn9Ftc9TFq8uTJf1R%2FjjDqTimRY3Wdpxa%2BltyH2oW7PGbg2MoXa2hghfMy9XLDVtk36yixiBdKZNKd5JrF0PT6LsN%2FRUEOHjyYhr6apXJMHEIcwSQqsnmm%2FyiI6ORxb2MFhVF0b4QynzI4TzGQdXbFi3umythjhscxzZaUfFjpZbyg3vPBwoCAqSb%2BeEhtFv16g7bCpmT%2Fzt278detXft4QlnAwoXw5PbX33zTUgbtBKiIeIwUOPxiU1E3CZUH7A7rEVzGjh37AS7Z7FqKhUH4wXFmTkS1atVYHshSGlKNZornnj170qkB3v8VBRGMTF29evUkJC6o78FYgOkZC2EMiGoBBqXoP3SSRX4QBuSJIq8bIYlzF4SLN39nzpz5OrwJa89FfmPp10SJEz%2Fl7V1jleCrV3cq5hKyupzoTfIcBi7ed1Q9kIV7RDGj%2BCSotKlC%2BfLTpCAjkydLdu%2B%2BY70vVm%2F0lYFLKj4KTj7l8Rkct9%2B%2BfdujEDOPw6wkYkq6WeMWHOfkhiyF6dKlyz91%2F3%2F%2FbVlZQYzotv%2FQIYK%2BFRQUlETe9BKKQJBNyXvbtm0tL9KnT5%2FHK%2F45Nhn1iHkwHHpOhEYK3aXZ2RIbDwK9n7FdstU2cv5mFqQnKMYeKX379CnWqXPnQBmCBHiOqK%2F5VnMmg0X8kTFTpovS7vGSv5utWrbcV6xYsb1SlqCsikFmzpxpldykFuKhP6AjL8eeIZLxe274FP79QSAeo7UEhK4HOI5FAdBKGAGzxDSv%2F5KCOIoyrcUiGH2G0N9%2F%2F71lZahnWygXbuDMi7KObtoUBbgGfArrpE0UEKLQfAYaujtJtmDw3o4ff%2F93332XT4HuAjwIVpnleMwZarO98n0L3fJIfa1dq9Zv33z9dTfJa5%2B4b701N0PGjEGECExBNitCUr7%2FyLHlG6tHOhafi%2BKO5nZpjkdLh5XDcpmsFSldhMO1KBFNBHYQwDLt1lEhev%2B%2FpCDyCqGZMmX6G7wKsckoQQ8G4fCsCBaKAs7HUEjYvMOI7R7inSPyfqCtG68WS%2B9k4brrnmIQ5%2FGpqxQsCnaYeRrutsEzxY1ZsmQ51r5DhyqFChUqvmnz5tpBhw%2FnSpAwYSxZ6eT7Dx1KZBU0vkZZrQeOMQwWnPioQQPb0mXLLIOAXDqv9BhN3hDjxjJAZnIfMi6PE9cd5FRgH9Xj5GBZFasUhRO87Wk%2BsolPjDJRm6V45JS76t439WC3qQsXLpxAUPGkwCyzPYPj98erF%2BJBw4JQomMoCheR90NTNxAgpoxSHOcg3axNZYTdbJvHMk3M5caTnJQhMzV0pgLCmU%2FcRzzJmf2991bp71UlihWz5StQIPr%2Fxo4N3L1nT6LQ18iDWGM0aj%2B7S0mh15yQoSKJtGbNGluI0%2FpcZhOlixcuWIvJmeJN6CVFiuPOKLF4tUdGiWjeWEbH8v%2BPV%2FTW91CHp1vz%2FCUYD%2FEsjInwUIifOnXqQwrWjwqCpP8vKIg8xTGW8UQJsCx4EjwFLptEBn1nZJa%2FKV%2BQwHpUEDEmVPSKkIIIJydww58o58%2BftxuFMEs3sYawWYWFEpRHjnEQs%2BDcmtWrbZs3bbLmxCd0rJNlRtidF%2F1DgOB%2FnH%2F2YvFu06bN74cOHcpHKby3QyhfF%2FjLUbJkyf%2FFjhPnIR4eeYQOVmzmSG1zLl606LHnMAs8YOx0XVQ3CpKA%2FUGueHqxLGaK%2Ffv3pxKRCio4z6HPUUUgFtxKkDx58ivyGPfFgLcIyJcuXXpVL%2FpbLv%2Be4pFbsloJ1JAk%2FyGIlVqGouPixYtjKA7x2rt3r%2F3kyZNxL168mEB0uiXLdEWCGkNMuCrotUjWN1sYwn5ZsPRaRN6fI0cO0oaFXQN3Bd5eGCTiB8fK9NbkNbwcv5upwWbSlJkyfJdgXd%2Ft3rXLJqGyEcSeo2LZMXXarK1MzEWGbvTo0e3E%2B%2FJMTvJ%2BwesnRzQ2Y0ZhzFix7pUrV%2B5HoBMxB94Pb05fQwSFoQMGDJqYpYBMbM0ZGBgYzY0h28DKbMv02e2mMLqpSqJEiUJXr159burUqV69e%2FferM97ypcvf7Fw4cKX8ufP%2F0iuKvru3bsTCGp4V6lSJbZenGLr1q2p%2B%2Ffvf1ONW6m%2Fq0R2E%2FfX6ZDgbRo7dmxiWRq2MTssz3haCuMtouNBr9eqVStYCsIckqxVq1attnPnzmpheOalMjYbI%2FL%2BTZs2jRUtP3emJcxOnz591oYNG%2B7C0psNUM3WYmbBO3ew2FqLgDqkvXtZjsfWrFkzK5tjlmg18%2B2tknBW6n%2F06C0DZ14n2Gy2kq76%2FvvDUqZIcYVpvsYLmoUEvRzrLuD1QULO8RowWcgoad%2B%2BfZ%2Ba6bpu3bqhdinALXerWjtuDunWrVsTPfwmAQ%2BaxsIAImCBw4cPlxO0yCHsFlO%2F%2Fy1vFCqrFSooEk3w6kTp0qWXSvkSCgdW%2BS94EHnE6%2BrjgT179sRXgJ5JDMingDAam9rnypXrjoQxhmh0qFixYiuKFy%2B%2BQwKbU8xyW4cmmt%2F0tLOXp0PPuqH7rsljxXcxYtklBNOILYAUCEB4th8wEIMxK9bsHTNmjK1Dhw4WpDI7NhnYRZYye%2FbsowXH2ly9ciXx46A1MoWMzzm1%2B4gNWxMmDGnStGmfexL8eEw5Nn1nUpu8yB1dw3iVGadyQQYYhSwyKk%2FNdpUhPGUXQy999913l0TUp%2BAQWwCIARnq1au3a8iQIVVHjBhRRYFdDCnKLbmy84JdNxg4k%2BDcJLcvqBFbruxt3ZpElq1ijRo1%2FpbQ7JeX8XmTlUNG4X%2Fq95TKlSvHlOc4v3LlSkyQNR9JnjP0008%2FTbBkyZLcOlOIVtlkkVts377d43zavHnznqNYLiKHDNWFFi1anHdVEPEoCTVWxECMc5hNZCKC34lLEByzYasspwWrTGEj2ToJ0fmPW7TIt3rVqv6bt24tL88SS8pzV0FwvFdSyOgY9%2BD4tEOHjwsXKXLz6NGj1trDzgcxc1z1g01DmTTm6v3IQgo2v%2BNusQvFaOftggIhsoS7T506VdpdO6QEHUXwa7KQb1erVu1PvWCB8HAwL6bQi%2ByIcc24Y1KdJh08aNAg1q7d06pVq4A3VTnUjxuNGzf%2BVn08yYCga7oVgmfMmPGMYpLd0KF58%2BYE6UW2bNnidj6tBPmorP0BIFBEyt0VMzzUvbv00cdFQQpKkL1lkB5S8iNj5CXs%2FQhFcbfAtydPYkpQojvSoKTuESgSALT1hmBbhgwZTooe9SpUrBgtx3vvJe3UqdOk4KtX%2Fe3RX%2F6YsDXrUQpSoUKFGaL5DFaMj05WyslzovR4QTKNxGmu3iPUsVKl%2BljIzWIWe3X9WS%2BshKzFOU8NEeMLyw2NrV69eiO58Am6KZg6FrO0pKlNMoGgce0QFY0uWrToQgV9s99UBVFs8X3JkiVPYhBw0a7LFkFYBgsRJrwCUFSw0uPi32LUZSnZ7Yji%2BF07d5IZ3O%2F6PSs5yiilTOlY7kY8iCP%2BFH%2Fo2EswMhkhk7K2Sjccm6FmypDB%2Bh%2BInd3X9960adM%2BPxwUVMQ7WrRX4z0k%2BDFixjzVsWPHpsgwsYaZYmxO%2BoJHxHDxP0bb%2BcTYIceK755at1myfkiGItRLwTcY85CntogpF4cPH74HfGu2RnaedMPfZmEyq5FmsowskrUfthSlS5cubSVgZ9805ciaNevqr776qifTaPGU7hamgA5kTMj8fPLJJ1bh4unTpz3uPXL%2B%2FPnDTMdlfeOIHIKrlKE%2FtfmLlMJLClEY5SVAVUzxF2Mj8%2BbN%2B0Xtfcd5idQIW2lHgG%2BKVIlXSPN26tx5x29Tp3bwihbNy%2BtlwytH1ip6tGh3p%2F72WyV54ZvIpdlOzpxmqwWyeVaq27E8lfPp2DH3HXn0p1aKESrYAs29Wrduzbqyyzy1R8rjJy%2BSnRQZK4SzF5xg0%2BMNUngRgoMLY%2FKQqQli62dG1Wl4uXLlLowaNaruGwatjgha1XCuL3MVMoSGchOUx8zak7DGVXyW29NzmzRpsoy6tUaNGkWoPQx6qU2bJfBPFWWtWrWqlCkpURtIlATIOm4bNmzYNkHo2skVm5CJMusmh0dZQh1TZ7HOLFsqGiSaPm3aYMVbm%2BUlcwKrvF%2F2QLBDOThG%2FvxzBUH%2BvSahQN%2BdTzMoaDYLMqU05uQ3UMHGjRuLybhEc%2BMYVhHY2xF8XbiVXaPcrY316J%2BVtCvpsLbzwl3hnoBZvFzCb1kuFIEXonUoBqO3CJBpaN26dQNlPWt17dp11hugH6eGDBlSntStWU8K4cIamxQhe6j37t3bWiyPuAsXDp6dO3du8QsXLqT08Nwb8sSroXlYMwDdHY6YIFgeav22bdueSADo74qy9NGTJEly1wi3LOto8cguTzVdULeNDNZ3%2BfPnXyDGPzglft2WoBHYY2UNNIavxuAR8CcSBDl4%2BHCWqVOmNFi5alVL0cJKvZn56qGvwHNw9O3Xr4Z%2FsWIrj1Jb5rQXprNXN3IH3aK7KbbE84EMRLunJvWp%2F2dz5cq1m3vtTAJiIxyG6BcuXOh28bhFixZVb9as2QAzp5k8e82aNW3FihWzhuzNQs5gcZ6Fknz%2B%2BedW40g74uJwdfJWs%2FUM3%2Fbt2y%2FVY1O8jpoh5d6cJUuWMrKcN1AI4JMZoTawEgPATEssE3GWGVTjmD9%2FvsfljQTDNuXIkeMMNWsRtbxYQOiZN2%2Feha4KIh4kXbt2bZnKlSsH0F4E3LEr78hYsWNfWrRw4cytW7f6K4g%2F6efntyJe3LgrEiZKdOzC%2BfOX5fFPydvcjyPluBESkoA9M%2B7cvp1s6ZIluceNH19my5YtpW864k270wj0y1QMa1s0KUeihAlvf%2FPtt1Vy5My5HKOUXp7NnefD6%2FE7sNPs5e56IMsHDx6MLbo9NQyRM2fOpaw6g3G0M3jCxbKE86Qg7dy1UR4k%2F4IFC%2FwlGGtQKNMI4JQJBKM4FinDfdEglnr89ddfLWyOBvMdaxXp8z7het%2F169eP%2FfPPP2u%2BLopBP3x8fPpJeb9cunSplfkwhDUruDNKyzRjSjTUdstCmRIOrLEInlRwp2oY6d15WK3IxAQm3err6ztfCjDMdRWZgICAhvotAINFW1AmDJf4O6t1q1alJkycuFiePo1Odi5uGlM8H%2FXLL1x3XAp%2BNejIkSgBixalk5GLz8rod52E6vEKJy95vMNKEgDZBW%2BlwMd69upVRZ5w3%2FIVKyyE4jqJy0z1xgCxeY4pL3F3ADll%2BGvKeMdxM%2F4x1yxIbgdbw2i533V6%2BBFPK7zPnDmznoR9DQ%2FmRiwa%2F5udcWEKzzHZAzIE%2FE4dFzGLESQYKKZdlzeppZimqJ77kwQr%2B6tUDsGR2RL67rIYh0ksoOTOZesG46JEwEZohtcwMMnMlRk%2Ffnwd3RvXk4wXLVp0mcn6RbRcnHvwxIJnRwWz1rGBjPPvwstVVq5cmUQCwZjW4yAVK5g7V64%2FBwwYkOd%2FY8dO27lrVzaTZWRs4FpwcFr9mdYFfzyxwvurGjk3k59qVK8%2BO1mKFC0fPnp0FWhvlMed56C%2Fs2fPfjzUEEayhCnIT21zLr5ekpyvIMa2FIQFfR0jqneEoZfowW3dPVBCXFdC31c4%2BDQCxGIFNMJhqbpJOTJL22cUL148MFGiRH%2BZLZnNJCKz9CWnWaVRkCBQcCbHwIEDy8iLtZLWl9dzYrwM4ktJg%2FXu36XcP%2Bv%2FrQg%2BfcLCu24jbCALJ2MNrptDwgj6pfubeXqfDMtqxXBBjEqbTJhoFe728l4O4hfRbaqrgshgRRfca1mlSpVvYT7QgnorPDlFpkX9%2FffKc%2Bfv37%2F%2FyG3btzeyVkYnnfu6VVwTa%2BAdWTUnYcIb71et2v2TTz75ae6cOY%2FXhnanHCaWQp6RuQyOtLS7A2MmL5Nv3759xVx%2Fk9GeX6JEidugHQyg3ex9B9TSCybs2bPHrYIwFD948OAWDRs27AnBEZpojhX4JFRRhMlJyzQSk25K%2B77Rwwc5Y3M8jtnD3Np9SJ3BGjASLc1fJqYv%2B%2FLLL98RVKgs%2BFVav5WlEPB50l4B6lkp%2BGIpxAKdf5ARUsxgpaPJwplqVheL8njjeiy46%2Fq2ji3Y2JmotuIsj56wevXq%2F2OzIlMrFNHDvBcvXahIkSkxfvhhkGKFJ9bpXb16dfsKFSoMkdG6TZsZm2EhZwwUBXtSnFstW7ZsfO369T%2BHDRvWV%2F1OiQg9sR%2FIK9OL%2Fw9OcUgepr%2F%2F%2FvvdYsSMeRyaWTM13awcaQJuhxe16MPouOGdu7Q16Oa3337r4s4wKK4eS3mKobfdpP7wCsKwWwWHAjztUyg41EnB%2BXjBEWsPcywVwbeY0k%2F4eu0XX3yxWN%2FHHjly5EBZ5KIK7KuzWgSNwqIJn9tYBVBwzrK6Zr4CA1w8SwS5qDb8T0r7PzE7tnCmrwLNOJMnT66qYKpdZIgua%2FAVbZs4cWKw2hmk9t%2BhHJ3fUAzeTdvcWSVHRsMMHD02CM7XwAzFJt5jxozp7akden6Q3PY05y3CInr8%2Fvvvzgp5PX26dFNkAVs4XyOjkmjNmjVt2FSUkm%2BW1iRJwmITeD%2BUBthQqFChiYK6848fO9Z7dWBgaymPJQ2vRFGcslMW%2Fs%2BVK7B06dKDa9SqteCE4PmxEyce76bs6cDo4pnZgcCUzXhKXYN4JN%2FZAgMDa7pBFRsTJkq0aY4gmhmusJuHEfRhcT766KNfvvnmG08becacNWtWjzJlyjSF2AgWuA8Nb9y48RoJdGkJ4HqHx6m8ZcuW0c2bN29KoxAMtJtAF81mKUxTfm2CXLNFGMqaMmXKm7Lym9R5u57VKTK057kSyiQS4tUsLoGlZ2MXhIdY6lnC6lhR3RIslOOpxaEdWzLPmTPn85CQkKyenlOnTp3RBQsWDMULRWZ02xEnPX4nrl8x3MA2bdq0cL1uxowZ3UTzH2QJ72J0METcSxEi8R%2FxIoZBfbler379T0uWLDl6xYoVn69es6ahPH9UI7Qvch665S0cMMoyQnpX7hw5lhXx9%2F8xU%2BbMC6I4YgTn7ZjDGshE6Qna4XFYq9IjrzxP3ryPO%2FiVMWPGgUy2snapcsiGnRIFc6B9efLkCZDVX%2B9pr3QpSJPs2bNPFtH%2FZFzEZK5gvizXBsGw6p07d57LtevWrWsyevToQ%2FIsA0m5mRVSsNrWfntqCH8zlsIqKQT04HLaQaZIsO3tunXrMg8iU2SZIW%2FRXgKRRRCoHLgUL0a8QRzEiUI6C74huCOmADr9M4%2FZhVEQGCWTEXj3%2B%2B%2B%2F7x1GE27ky5ePjS8tqxRZDyKj9ATsk9IflVeZ8scff9R3vk68SCBv2X%2FUqFGfoxT0ESXG022TJ7G2RHNUb4OzY8eJs%2F%2FDunWbV6xYcaCgbZPAtWtrnTl7NuN9J6tudsANfVI6n%2BkZHn%2B0%2FbNn4EMXAyNlOJU8adK5RYsW%2Fc3Pz2%2FzKRkuaqqgPSuwPItWZkFx5AgDFlb9Gf1F1kWzYoJiT01FEH%2F2fPbZZ7%2FDI%2BdneOMBFHdYJ0KKK2abXLmsGp4apsAvW%2BbMmcewWp0ZQDOBbMKECQ8q2I4na%2BXnGMQqLRe%2FNVWqVEFcx5LyWEDSvyajQ8dY9IEFIahnYsCNdsmTzRCTC%2F1bi6V2pVfHowtureC5BLwQC4%2BFkPAdlhYLiyAhVFQF0E4IxuCo8XDmxBuRCh46dOiPYlAeT%2B8WxBms%2BCaA4JGAmY1OzSnIF%2B4%2BCE5ZeX1Oxjoc2xrslMfo4HqtaO4nGk7LmjXrVYSHjAxC54ytMW5Gaemv6BGcMVOmFfp%2F1Hu%2BvoEJFCCLP%2FGE%2FRPdo8aLWjvnk0UPHBnLp07Xa8l26nopY2jG9OkPlylbdpqsfa969ep1SvzOOwHRokY9i2czq1YiD9CcLNstxR7wAa%2BPMc2SObPFMwXwVtyIMCN3GF1PJ%2FELPOYZ8q7LdP1Tcw3atWvXuG3btkeQUZCUOe3AH2eXReMUTE4RFGmggLucO2YJtuQVE77Ry3qSc4bIZtEChKdDhw49u3TpUlUdTo8CyGrPz5EjRyN5isn8blb3M5bZjKfgYRBcLNzHH388XQrz%2FvNy62PHju0mS75A5wazYyzEaNiwoUVEYAfCBMEpH8%2BdO7cFR%2FjsGnfQZspL%2BvTp85E8Z%2F0wRr%2BPVqpU6VuMh3MhZ2QO163VYLoC2WOCtCNnz57d2vV6efJJijXy443pEydGCY%2BJkTLezMAUkigszSkPdD9FypR%2FpE6d%2Bo%2BiRYp4iye5RK%2BiTIL7%2B%2BbNAuJ9MincW1LUeLrH7aoN8d566068uHH%2FlpBfk2CeVhs25cmd%2B1TUaNHWSA4O6rdHzF5ks8%2BrMjIxxXszhyU8sM5aKVLKQzU5suJY6tXj%2FowmMO%2Ffv%2F%2FXZ8%2BefQqNSCYD%2Ff39lxDku8aJdtdFlGkgmqmAeeB3331XzlMjhbt7yIquVeyxDOZhgdFkR%2Fn3TSnMt926dfvVJBoEQybJalaXMH4n67Zf1uC6Y8kaxYbRo0tBUqiDCWRp88jVt5HgZXre2PfHH3%2F8plevXmWwwgaDGiWF0ExVNft%2FY%2FE5qCkzBZlmzIPrf%2Fjhh0zq04hnwKKhUrB74Gl3m5tG5DDV0858IptYv3797uJFQ%2F39xAsoKpQH%2FmrMmDF9UHx4AxTGEFGRC3ykn9GdStVNYaK1camMhp5pbS6TL3%2F%2Brcw%2BFAwDSscC%2Bkqo4otemfVcLyNQ%2FB89WrTb6zdsOKT33KhapUqw6PtgTWCgBaMRQKsdej6xXbQIVAIbxcHAsuDbju3bHyeXSESwWxQe3XXvdt4BGhAd8kyaNMntPjXNmjVricFgkyJXKG2XRrvV0FatWq0Uvh6nOKKpp0ZLSCZIkXIpbrhAoG4WRoaZEqwJalRLxRV%2BTmlIYFsNeZ3rskiM%2BESR4HkzG08ESyzlicpeJC%2FqEIwsLS9XQtZiJR7D1aLjykki0AfcPcqA4lulDg4lAZYgmFKOCWpv%2FDDGLQLbt2%2F%2FMwJp0o7%2F5nC36SdC5uvrGyKP%2FYWM2UjX36dPn%2F6teLNGirqGvhpPBoSlIgCPb4xaGPD08Sg%2BfFWfb4XcuHErbdq05yT0%2B5wXNodewKCdgpKsJoLwEovQTuhpoI5XBD2p8dpRJZfwByUwFbsPHOX4zIpE2a3F4BxCbry2QofoAwcOdFsDKCUf3bJlywMYEWLTp9L8aKTrYbY2ULDdXgrCYIqnPFtSeYmpU6ZMKc36WnSEtC%2BNBSqJgP1%2B%2FvnnBa43iahvc76KfLusWB21a6VzbZVhAp6QEgVoYu35988CeBYs4bMpmfnqq6%2FGSMEKhvGa2wr4WlOzBQSN6SF%2FH5HDDBS6S3FKQX4OCAioK%2Bte1FWwpKSzpk6dmkVGIdhsU0F%2F6B9xjZXdMcWHz4A3xkiY1DxQlXjI0NEsu2rKYKxr%2F0U5vIF%2F8IWECEYYpaaqHJqiHCg976M2Ds8I%2BjGGgP9RTinAdN37rptXnOvRo0c7UvhmDsxTzsJT1E9GSQ25qViiq7RvpqdOyC0VF46fKDdVH2KRjxY2tqym3F6ArMiACY5tgF%2BHY%2BnSpVW6du3aiR1sjVW2VtBzZEDwLGbWoKnlkQGwmEDcITjztYSxeVjvqF27dh%2BdeylkfF6pUk%2FxC0KPUIwcObKuYsdjoArn39XuxIJai3QU5DoCdvriKM23Vqbn%2F0eOkiGzcuTrcOAhoP92QR88mRmbcB6PMkpkLfLmGJg2S%2BVi6KQAfWUI3NbH1a1bt54MzL1AQUDX2rbHCuJpRT4zU07uedbcuXOHSvA7hmGV2fstpHz58q3phJnPTIMVbHeTtflL7r7v60B0tSXZqFGjCouASw1RaDMKnTVrVosRzgWYBsoAv%2BbPn%2F%2BplCPM%2FRZ13bwaNWr0w8K6280psoensgn4BPYW1DrbpEmT%2BuPHj5%2FpJutY4KOPPponT1LVBKEm9uKkz6wOQtYIz2JqxcK7%2BMPzOh57MQccJIPFuAQZP3hj9qLxZHRMwgc4B4zs3bv3p2PHju3u7loZhl7yLKsx6u4Wc3isIFzg6eA3GjVgwIBOzZs3z882xJ6uFRRrpYaHFilSpA0WeO3atZaAMGouj9JPcGOqsGBHBb8l9cwMsnxRXS2kgTIv8uAdikUKy8IvBXcai4QVxeI7V4CaaauM5MoCd1i%2BfPnwZzz%2BbL9%2B%2FVpwPQOSz1O4PO1C%2FDhfL4vZvXv3WYqPfhCNn6o6WLlyZZVatWqNl6A1YVNW%2BGKCcquoES%2Biz8xzIVi9I%2BGM7TByptD0hSiF7Z9CTLP%2FPPLGRK1j4oUZo8LYGtgU1mGKFVmkWvxsIIPgll%2FvvvtugGK2b4g56BtxpceMWVgju4YobNTZokWLBkOGDFmnTnicx7F%2B%2FfrWamCydu3a1RbxHzC2gSaTMSlVqtRxPa8tljhHjhxpZ82aldCx81EojJIVu%2B%2Fj43Pn4MGDU2Tx8oaHuDlz5rRm9CE8eqfNefensA69P4FiBGssgD6ScydNTTmHWf2cttFWML4EbqCU44tnPbdRo0Yfqk2XTdr6eSpI1GfsFGsE7Msvv2wvnJ5Dway%2F6zUyWo3ZFEbQoimCaLyStYWznm92okJg%2FyIgd0BOEAHPNyU5nuBIeKEiSmftFMzWb3pvbNEY4c8lfu5VXGQ8L4bW03K37uJm%2BoCsSoaaCUqP9XDpKXnTD4hrrDWznhEj2cObYZF1OpkkSZJaHTt23BDWdWIMO8IG1qxZszwZFjapJ4BiJBghdOwmelxCdNwEyrh4Gkyq7vTp07fCS%2ByffvrJuscxNmOtKBKeQ4FzfHanJRtlpSaFvRForJRhBtkQBEWx1eQlS5bUf9YzW7du3ah%2F%2F%2F5reSYK8m%2FTum7GVMIlJGQlZ8yYUaVixYpbzp8%2F%2F9S%2B6jIKTYYOHZpg0KBBtWU577lCNzO1mGcRozHVl0FR5IS41DIoElz6aFL7GBEsPd85l3og%2FA%2F12axmaGAdcI54yMqOiW%2FvpkljoRUMlRnlN9nD8BxmcQZkaMyYMV2kHAM8JU%2BGDRtWXijnDrGYa6LGreFxOxLq5iSXryBwY%2F369T94VoMFpQp269YtSAQrBmPRVEbpCXKpHgbz8UyIynO5htmJEFC%2FPeHS%2FP39bSwsUadOnafe41wmA0Z1Pdq0aWMbN27cU7%2BJKKEGSqEUrAMFEw3koD1iUAZBy71y189UDrX9S1mlicA0s5pheGgaGXwe1slBZil58uQhI0aMKCeBuejuWQsXLqyq9q4WX1K965iV5yqMJtjFmptZlVu2bLGSAowrUEUBMsB7M2DnvE2fmeLKwCP3Y9VJEXMvYyEsWIFMJE%2BW7J%2Bp245BS%2BTBXUX1s2IzSmmoxfrmm29%2B%2Fvbbbz0px%2F2ePXuWrFev3gGUyXgO8z5Ppz0iDQHCSElmyWrUV8A65RnXJ5ZwrhIe%2F0aN74XgMDpNxoCgVwGlhRUZ3cVCQVRHGvIxp%2Bg0MA2BpTYLd08tlbvDNRvH83%2F88UfrM%2BlW5o47y5uBJLTFLECB1UdgFIg3FuNGibnPXPDJz8%2BvtyBLP7Cvu5T5yz7oF8IqoTwuSOzfqVOntTI6T8GEHTt2FBQU2y4Y00yWe75Z2MBVKTFaMRxpYDPnghNrDTqAR3hjDBw8ZvqAtcSOzjPypqSn2ccSOIsyYRzxsmaqt%2FOUiMiMjSA7ksu0MggTtm7d6ilGvi%2FkU%2Bz999%2FfSJwZkT1cwp2kNtaVjslF%2FaaXffisexA8MaKngr59gjUFcNMwAcGEOHSO0WuzZJBrw4kxnKGFp7EAdxbQzHPhgEGuJdNmpXOEic9YOfUt7e7du5fLIo7X989UjsKFC39VpUqVr7Gw%2F6YQ8XkfZo8PedjDghR%2BUoCzHgYfE7Vq1Uo2aN4gaGFmSIYFbUw5CJ7BTBTDMPCZzB3jFGYjJX4zYyYm2DerN2IQI%2BpFnXnH%2B4BkgvT1WrZsuSMM5bjbpUuX4pUrV97AOEpES34iNIpjiIOSlChRYnrDhg2rhec%2BKYrPL7%2F8svGrr76aLGFKaqARjaUKGEWBOa5ewBUfh7UB5VPBldO17uADv%2BOaHVsFxBEm7y%2F3fEyKUSo8zxfG7%2FjBBx%2F0fd2Uw42SHB07dmyBdOnS7fd07axZszorftopC18SjwC0igwEdOy6a1n2F5H1Ms9k0JDV9tWv39TuKTK6b7m7Xm25JJjsJyO23sRPEeWTV2QbiuWVkMxTA3ILmlwJz30LFiyo%2F%2Buvv56Ra%2B7PPA3cNNaHgA1446oQrkyKCNGd7zUxgdNYxS3w84EDB2IqNuqgoPaUoEHX8ArFZ599xiovw8xOqVFe0x1gEVgqWKUkZ4X7Cwpmzvd0rQQoh4Rthc7xsvipzY64kbXyz1sxzOawiRIliqaYtKO8ws7Vq1d7XGtNSh7YoUOHvDJiO8yAbWT4ZI9Mgw3cooyiZs2aO4S%2Fc33%2F%2FffTHjx4UDgcnfVevHhx15UrV7aS9Z6TP3%2F%2B0YI%2FGykTAJ9OnDjx%2FosQFGePcvjwYbao%2FnzDhg2fyWuljAC%2BP1mrVq0aLVq02E5FrAkqX%2BeDvhM7itZ%2FSamrKsYaqNjvC09GRd6kseBWtQIFCozJkCHDSH0%2BYaBS6CtY1QTFwCsJlsWRQWsqKNVWAp8xrPuEbsYKnrdk9zTi1sgqR6QVxBlukTWR5T%2FTrVu3IkuXLh2yefPmjuG5n11jhfeb7Nmzp4mUZWfVqlVH%2B%2Fj4LBRc8XbOhkSkPa6CYQ6zALM51EZgVKmI9FcxyhwpRn0J2x2zIWSUN2TvcLOlGmnbBg0adBE82SgjNUqQyu0GR8HBwW%2Fr985SjlYyXhNkvMbJ02%2FH25uapRc525Dnm%2FV0JeRpFNfUU1zYQl4ubVj3ql831dZ2OsbjNTDg7mTjpSiI84sJxgmm%2Ff39O2XLlm3p7NmzJ%2Bm7d8LrPtWZnAomR4r49yR4j2GfWSTbjCmE1VHX%2BiFqwhYtWmRtDoO1d05DRjArdLtevXrtBQfHEmCajNebohzO2S2UmiA6S5Ysc2vUqLFx8ODB3wnuelzoTooSR2cb0bKNYpg%2Fs2bNOsfPz2%2BhLPoJsn2MgZixo8gqjFk1hvISs9f8o9DQeDKeJQWDP2DlQynyM4vD1L4Vkr%2FWiqEOE3thFJ%2FHjsP252WhyELhzkT4P0TENOPGjftp48aNzSLyHEGWJwrtyLuT%2BSLDRAkEiw84Kyej6OBSlIgKYudj%2BPDh1vlvDnm0JfXr128quHGesZiwanbeJEVhUFU8O9%2B5c%2Bc6O3bsmKtgt5c8YxZP99BvXVeSU0ZnqJRjXVBQ0J9SlHW%2Bvr679P81eGSWdTIDr3gAjJtZ%2Bslaikiw1HgIlIzaLymEXfLz3rRp0%2FLu2rWr5N69e0sKmYRrBFvvO1GnTp1vdY5jDg9wkiD%2BeR325%2FUgM7BCvb6w691vv%2F22%2BYgRI0YK5w%2BVBSge2eeSIsQbcLpaHnmdFyJEUrp9uXLl%2BrxVq1bLYCarZZBAeNOVw1lJgFuOsalpgiSzTpw40WPSpEmfS1DDLAHQfdF37txZkhN%2Bs76Yzt2CnecEwfbcu3fvCGVDuvS%2B%2BB4iZflL8V%2Bo4lQ2H3pbHji6hNq%2BYsWKJIGBgfkFsZPPmTMns5QwreuksGccD2SMR4hPvZMmTfoX8oB3f9771NufN%2FEJhs3kmjRp0myXyyuxadOm6hLwgbIiGV9nwZGFuyzrwySjH7B%2BpkAwIunlN0lJCMqJpyRcD1q2bNkrb968YxV7fKqYsKW8zDNhDULJ2mU6i7OmgcOiPw6KzeKBljQ7JjaZwUfXfVYiAnnVzl%2Fl2YcWK1bsKKiCoQLniVKvtYI4B%2FC4Zsf8grnlypWbmylTppJyo93ElNKv02p%2BcvPbFLwOllDMUTB435pyqnY77wz7Xz2wuAgrI93yAKe%2F%2FPLLjopRvps%2BfTpLOzVQ7Bahbbxdq7HdzTfyNMUirENtO542bdrJUrL%2FFS1a9KRZVR%2B4%2BCIN2As1jSaQRVEYDFTH%2FhQz%2FtT37wnLtlIwVU4uPe2rEAxh4%2FMKvFeVLl36F%2F2%2FmlUPly9fbpWe%2FNsFFt60w8BjIAolMzIIp8Wvr0uWLDlAXr%2BSAvmqR48eLS98%2F1K39Y4bL96ZVClTLlVMG5A%2BffolQiF3KMUnI4d3j2jd1munIM5WCstCEA%2F8kovcrQC4lay2XUzxk5ustm%2FfvipiToYXrBTncuTIsUi4e5682cp58%2BbdpASFdpGuJpB83hj2TVMUjINZnFzW%2Bq68yZykyZLNuXvnTmJBmRKy2qVFrwIKpN97EW1ImTLlegX8u7Jnzx6gQH6dl7d3CNW%2ByA%2BK8bLT6%2FZXwQSztpME9kHWrFkDK1SoELhs2bKOCvCy%2F%2FLLLxVFGB%2FFAClOnjyZVR4nUikJYd9riif2xIgR4%2ByhQ4cOt27depm%2B2yxP8cDMljSzyf4L%2B7i%2FCD6ZYs5rMmri1WVBnBlsmkncIl75BAUFZd%2Bzd28O8cv3wP79qQXTUkvBwrsz0PV3kibdnc3H58SDhw9PxYoZc42efUKeIYg6OqAThovF5Nil1ky%2FfdnHK4s%2BDfZFSLHcCK2sxh4xZY9gjzWukS5dujgieKp169Z5i0ClxYhMIuBNfRdF93jrnihSgIfCoI8Ek2LoeRck8Mvy5MlzK2nSpOfljoNJMxLEUWoPwWEuKUhTUPd%2FR%2FiUBct9Q8YEwcWo%2BBUsuF%2F%2Fs%2FXYdMWX9p49e6aIGzducibWybClvXTp0n0G6rjeFBcyziHvEFXG7%2B6QIUNY%2Fml3h08%2FDWY8ZemSJdbyPcwdMssUwaNXnTn8fwIMAFNgXPOQXpCwAAAAAElFTkSuQmCC);
+  width: 95px;
+  height: 94px;
+}
+
+/* line 209, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer ul li a.twitter {
+  background-position: right 0;
+}
+
+/* line 213, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+footer p {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* line 219, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  body {
+    font-size: 22px;
+  }
+
+  /* line 223, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .main-content p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* line 228, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .main-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 233, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .top-nav ul li {
+    font-size: 22px;
+  }
+
+  /* line 237, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .feature-photo {
+    max-width: 100%;
+  }
+
+  /* line 241, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  footer {
+    width: 100%;
+  }
+
+  /* line 245, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .CodeRay {
+    font-size: 7px;
+  }
+
+  /* line 249, /Users/bryan/Projects/Ruby/slim_blog/app/assets/stylesheets/home.scss */
+  .CodeRay .line-numbers {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

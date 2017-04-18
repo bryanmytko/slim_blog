@@ -3,7 +3,7 @@
 <head>
   <title><%= page_title %></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -35,7 +35,7 @@
     <li><a class="github" href="http://github.com/bryanmytko"></a></li>
     <li><a class="twitter" href="http://twitter.com/bryanmytko"></a></li>
   </ul>
-  <p>&copy; 2016 bryanmytko.com</p>
+  <p>&copy; <%= Date.today.year %> bryanmytko.com</p>
 </footer>
 
 <script>

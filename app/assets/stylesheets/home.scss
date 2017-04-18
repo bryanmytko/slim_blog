@@ -1,5 +1,5 @@
 body {
-  font-family: "Crimson Text", "Helvetica", "Arial", sans-serif;
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 0;
   background: #fff;
@@ -14,8 +14,9 @@ header { display: none }
 }
 
 .heading h1 {
-  font-size: 4.8em;
   line-height: 1.0em;
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 33px;
   font-weight: bold;
   margin: 0 0 6px 0;
   color: #000;
@@ -69,37 +70,39 @@ header { display: none }
 
 .main-content .content {
   padding: 40px;
-    padding-top: 0px;
-  }
+  padding-top: 0px;
+}
 
-  .main-content h2 {
-    font-size: 32px;
-    color: #000;
-  }
+.main-content h2 {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 32px;
+  color: #000;
+}
 
-  .main-content h3 {
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 0;
-    color: #000;
-  }
+.main-content h3 {
+  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #000;
+}
 
-  .main-content h3 a {
-    color: #000;
-    text-decoration: none;
-  }
+.main-content h3 a {
+  color: #000;
+  text-decoration: none;
+}
 
-  .main-content h3 a:hover {
-    color: #444;
-    text-decoration: none;
-  }
+.main-content h3 a:hover {
+  color: #444;
+  text-decoration: none;
+}
 
-  .main-content p {
-    font-size: 1.8em;
-    line-height: 28px;
-  }
+.main-content p {
+  font-size: 1.8em;
+  line-height: 28px;
+}
 
-  .main-content p.date {
+.main-content p.date {
   margin: 0 0 30px 0;
   font-size: 1.2em;
   font-style: italic;

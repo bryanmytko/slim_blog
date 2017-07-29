@@ -1,18 +1,19 @@
 module Admin
-  class AdminController < ApplicationController
+  class AdminController < Clearance::UsersController
     def index
-      redirect_to :new_admin_post if current_admin_user
+      redirect_to :new_admin_post if current_user
     end
 
     def login
-      @admin_user = AdminUser.find_by(email: params[:email])
+      user = User.find_by(email: params[:email])
+      sign_in user
 
-      if @admin_user && @admin_user.is_password?(params[:password])
-        session[:current_admin_user_id] = @admin_user.id
-        redirect_to "/admin/posts/new"
-      else
-        render text: "Invalid Email/Password.", layout: false
-      end
+      # if user && user.is_password?(params[:password])
+      #   session[:current_admin_user_id] = @admin_user.id
+      #   redirect_to "/admin/posts/new"
+      # else
+      #   render text: "Invalid Email/Password.", layout: false
+      # end
     end
 
     def logout

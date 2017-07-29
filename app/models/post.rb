@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  belongs_to :author, class_name: AdminUser
+  belongs_to :author, class_name: User
 
   validates :content, :title, :author, :slug,
     presence: true
@@ -7,6 +7,6 @@ class Post < ActiveRecord::Base
   validates :slug, uniqueness: true
 
   def to_param
-    slug.split(" ").join("-")
+    title.parameterize
   end
 end

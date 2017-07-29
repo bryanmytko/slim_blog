@@ -1,39 +1,26 @@
-ruby '2.2.3'
+ruby "2.4.1"
 source "https://rubygems.org"
 
-# Core
-gem "rails", "5.0"
-gem "sass-rails", "~> 5.0"
-gem "uglifier", ">= 1.3.0"
+gem "bcrypt"
+gem "clearance"
+gem "coderay"
 gem "coffee-rails", "~> 4.1.0"
 gem "dotenv"
-# gem "draper"
-gem "pundit"
-gem "redcarpet"
-gem "bcrypt"
-
-# Front End
-gem "jquery-rails"
-gem "turbolinks"
-gem "jbuilder", "~> 2.0"
-gem "sdoc", "~> 0.4.0", group: :doc
-gem "coderay"
-
-# Server / Deployment
-gem "unicorn"
-
-# SEO
-gem "sitemap_generator"
-
-# Upload
-gem "fog"
-
-# Testing
 gem "factory_girl_rails"
 gem "faker"
-
-# Database
+gem "fog"
+gem "jbuilder", "~> 2.0"
+gem "jquery-rails"
 gem "pg"
+gem "pundit"
+gem "rails", "~> 5.0.2"
+gem "redcarpet"
+gem "sass-rails", "~> 5.0"
+gem "sdoc", "~> 0.4.0", group: :doc
+gem "sitemap_generator"
+gem "turbolinks"
+gem "uglifier", ">= 1.3.0"
+gem "unicorn"
 
 group :development do
   gem "web-console", "~> 2.0"

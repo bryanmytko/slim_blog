@@ -11,7 +11,7 @@ FactoryGirl.define do
     title
 
     content "It was calm, partly cloudy, and silent, apart from the hum..."
-    slug { title.parameterize }
+    slug "it-was-calm"
 
     association :author, factory: :admin_user
   end

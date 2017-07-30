@@ -9,6 +9,17 @@ body {
 
 header { display: none }
 
+.admin-nav {
+  background: #ed1bbd;
+  padding: 20px;
+  text-align: right;
+
+  a {
+    color: #fff;
+    text-decoration: none
+  }
+}
+
 .heading {
   padding: 40px 40px 0 40px;
 }

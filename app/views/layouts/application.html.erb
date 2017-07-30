@@ -10,6 +10,10 @@
 </head>
 <body>
 
+<% if current_admin_user %>
+  <%= render "admin/nav" %>
+<% end %>
+
 <div class="main-container">
   <div class="main-content">
     <div class="heading">

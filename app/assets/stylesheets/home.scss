@@ -1,11 +1,48 @@
+@import 'https://fonts.union.io/css/compiled/fira-sans.css';
+@import 'https://fonts.union.io/css/compiled/fira-sans-condensed.css';
+
+@mixin fontSmoothing() {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
-  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 0;
   background: #fff;
-  color: #000;
+  color: #888;
   font-size: 12px;
+  font-family: "Fira Sans", serif;
 }
+
+i {
+  font-family: "Fira Sans Condensed", serif;
+  font-weight: 200;
+  letter-spacing: 0.015em;
+  font-size: 18px;
+  line-height: 1px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+p {
+  text-indent: 0em;
+  font-family: 'Fira Sans', serif;
+  font-weight: 200;
+  letter-spacing: -0.009em;
+  @include fontSmoothing();
+  color: #777;
+  margin-bottom: 1.66em;
+}
+
+div {
+  font-size: 18px;
+  line-height: 1.55;
+}
+
 
 header { display: none }
 
@@ -26,7 +63,6 @@ header { display: none }
 
 .heading h1 {
   line-height: 1.0em;
-  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
   font-size: 33px;
   font-weight: bold;
   margin: 0 0 6px 0;
@@ -73,7 +109,7 @@ header { display: none }
 }
 
 .top-nav ul li a {
-  color: #ED1BBD;
+  color: #67bece;
   text-decoration: none;
 }
 
@@ -85,13 +121,13 @@ header { display: none }
 }
 
 .main-content h2 {
-  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-family: "Fira Sans Condensed", serif;
   font-size: 32px;
   color: #000;
 }
 
 .main-content h3 {
-  font-family: "Work Sans", "Helvetica", "Arial", sans-serif;
+  font-family: "Fira Sans Condensed", serif;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 0;
@@ -115,16 +151,16 @@ header { display: none }
 
 .main-content p.date {
   margin: 10px 0 30px 0;
-  font-size: 1.2em;
+  font-size: 15px;
   font-style: italic;
-  color: #ED1BBD;
+  color: #67bece;
 }
 
 .main-content hr {
   border: 0;
   height: 1px;
   background: #e7e7e7;
-  margin: 30px 0 20px 0;
+  margin: 3px 0 2px 0;
 }
 
 .post-container {
@@ -132,7 +168,7 @@ header { display: none }
 }
 
 .post-container a  {
-  color: #ED1BBD;
+  color: #222222;
   text-decoration: none;
 }
 
